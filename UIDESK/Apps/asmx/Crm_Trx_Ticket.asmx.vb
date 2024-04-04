@@ -325,6 +325,7 @@ Public Class Crm_Trx_Ticket1
             strTrxContactID = TxtContactID
             strTrxIDchannel = TrxIDchannel
         End If
+
         Try
             Using con As New SqlConnection(constr)
                 Dim sqlComm As New SqlCommand()
