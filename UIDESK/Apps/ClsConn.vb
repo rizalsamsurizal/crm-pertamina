@@ -12,6 +12,7 @@ Public Class ClsConn
     Protected dt As DataTable
     Protected dr As SqlDataReader
     Dim tmplogin As String
+
     Public Function opencn() As Boolean
         Try
             cn = New SqlConnection(WebConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString)
