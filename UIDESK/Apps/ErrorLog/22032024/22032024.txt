@@ -1,0 +1,50 @@
+Time: 22/03/2024 12:34:58:253 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Detail.aspx' OR UrlUser2='Crm_Trm_Category_Detail.aspx' OR UrlUser3='Crm_Trm_Category_Detail.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 22/03/2024 01:15:18:555 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Department.aspx' OR UrlUser2='Crm_Trm_Department.aspx' OR UrlUser3='Crm_Trm_Department.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 22/03/2024 01:18:03:975 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Department.aspx' OR UrlUser2='Crm_Trm_Department.aspx' OR UrlUser3='Crm_Trm_Department.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 22/03/2024 03:55:00:004 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 22/03/2024 04:19:20:815 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Main_Category.aspx' OR UrlUser2='Crm_Trm_Main_Category.aspx' OR UrlUser3='Crm_Trm_Main_Category.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 22/03/2024 04:31:15:838 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 22/03/2024 05:57:27:239 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 22/03/2024 09:57:01:184 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 22/03/2024 10:09:32:309 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 22/03/2024 10:58:23:201 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Type.aspx' OR UrlUser2='Crm_Trm_Category_Type.aspx' OR UrlUser3='Crm_Trm_Category_Type.aspx')
+---------------------------Success-------------------------------------------------------
+

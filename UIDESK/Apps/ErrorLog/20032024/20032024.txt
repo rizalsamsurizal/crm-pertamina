@@ -1,0 +1,20 @@
+Time: 20/03/2024 11:33:23:639 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/03/2024 01:30:22:561 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Reason.aspx' OR UrlUser2='Crm_Trm_Category_Reason.aspx' OR UrlUser3='Crm_Trm_Category_Reason.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/03/2024 02:44:03:541 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Reason.aspx' OR UrlUser2='Crm_Trm_Category_Reason.aspx' OR UrlUser3='Crm_Trm_Category_Reason.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/03/2024 04:26:09:932 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Layer 1','admin','UIDESK146'
+---------------------------Success-------------------------------------------------------
+

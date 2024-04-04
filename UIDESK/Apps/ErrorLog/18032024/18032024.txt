@@ -1,0 +1,15 @@
+Time: 18/03/2024 11:39:41:219 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_User_Add.aspx' OR UrlUser2='Crm_Trm_User_Add.aspx' OR UrlUser3='Crm_Trm_User_Add.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 18/03/2024 11:39:41:308 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/03/2024 01:00:21:334 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Ticket.aspx' OR UrlUser2='Crm_Trx_Ticket.aspx' OR UrlUser3='Crm_Trx_Ticket.aspx')
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,55 @@
+Time: 16/03/2024 06:57:24:694 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/03/2024 02:26:59:204 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/03/2024 02:30:34:790 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/03/2024 09:41:09:118 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_User_Add.aspx' OR UrlUser2='Crm_Trm_User_Add.aspx' OR UrlUser3='Crm_Trm_User_Add.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/03/2024 09:43:32:624 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/03/2024 09:45:02:373 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_User_Add.aspx' OR UrlUser2='Crm_Trm_User_Add.aspx' OR UrlUser3='Crm_Trm_User_Add.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/03/2024 10:06:03:651 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/03/2024 10:06:03:652 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/03/2024 10:45:45:122 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Case_Owner.aspx' OR UrlUser2='Crm_Trx_Case_Owner.aspx' OR UrlUser3='Crm_Trx_Case_Owner.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/03/2024 10:57:07:106 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_User_Tenant.aspx' OR UrlUser2='Crm_Trx_User_Tenant.aspx' OR UrlUser3='Crm_Trx_User_Tenant.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/03/2024 11:17:50:547 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_User_Add.aspx' OR UrlUser2='Crm_Trm_User_Add.aspx' OR UrlUser3='Crm_Trm_User_Add.aspx')
+---------------------------Success-------------------------------------------------------
+

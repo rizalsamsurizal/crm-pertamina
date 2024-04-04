@@ -1,0 +1,115 @@
+Time: 23/03/2024 04:31:21:034 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK151'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 04:31:23:390 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','admin','UIDESK151'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 04:31:25:876 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3','admin','UIDESK151'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 04:31:28:033 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK151'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 04:31:30:366 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK154'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 04:31:51:650 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 04:31:53:621 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3','admin','UIDESK151'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 04:31:54:771 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK151'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 04:31:56:069 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK154'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 04:32:33:122 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxCategoryType ,'CAT-00017','Aviasi','Y','admin','INSERT'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 04:32:34:033 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Type.aspx' OR UrlUser2='Crm_Trm_Category_Type.aspx' OR UrlUser3='Crm_Trm_Category_Type.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 05:06:15:308 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Detail.aspx' OR UrlUser2='Crm_Trm_Category_Detail.aspx' OR UrlUser3='Crm_Trm_Category_Detail.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 05:17:15:117 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Detail.aspx' OR UrlUser2='Crm_Trm_Category_Detail.aspx' OR UrlUser3='Crm_Trm_Category_Detail.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 05:42:22:870 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Detail.aspx' OR UrlUser2='Crm_Trm_Category_Detail.aspx' OR UrlUser3='Crm_Trm_Category_Detail.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 05:54:55:681 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Reason.aspx' OR UrlUser2='Crm_Trm_Category_Reason.aspx' OR UrlUser3='Crm_Trm_Category_Reason.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 06:12:23:848 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Reason.aspx' OR UrlUser2='Crm_Trm_Category_Reason.aspx' OR UrlUser3='Crm_Trm_Category_Reason.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 06:25:28:312 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Reason.aspx' OR UrlUser2='Crm_Trm_Category_Reason.aspx' OR UrlUser3='Crm_Trm_Category_Reason.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 11:55:59:470 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Reason.aspx' OR UrlUser2='Crm_Trm_Category_Reason.aspx' OR UrlUser3='Crm_Trm_Category_Reason.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 12:27:22:916 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Ticket.aspx' OR UrlUser2='Crm_Trx_Ticket.aspx' OR UrlUser3='Crm_Trx_Ticket.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 03:11:31:293 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Ticket.aspx' OR UrlUser2='Crm_Trx_Ticket.aspx' OR UrlUser3='Crm_Trx_Ticket.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 09:14:19:898 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrmLevelUser
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 09:53:15:110 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_LevelUser.aspx' OR UrlUser2='Crm_LevelUser.aspx' OR UrlUser3='Crm_LevelUser.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/03/2024 10:00:29:595 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Ticket.aspx' OR UrlUser2='Crm_Trx_Ticket.aspx' OR UrlUser3='Crm_Trx_Ticket.aspx')
+---------------------------Success-------------------------------------------------------
+
