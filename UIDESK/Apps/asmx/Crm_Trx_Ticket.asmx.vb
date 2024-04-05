@@ -303,7 +303,7 @@ Public Class Crm_Trx_Ticket1
     <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
     Public Function Insert_TransactionTicket(ByVal TrxUsername As String, ByVal TrxCustomerID As String, ByVal TxtThreadID As String, ByVal TxtAccount As String, ByVal TrxPelapor As String, ByVal TrxPelaporEmail As String,
                                             ByVal TrxPelaporPhone As String, ByVal TrxPelaporAddress As String, ByVal TrxSkalaPrioritas As String, ByVal TrxJenisNasabah As String,
-                                            ByVal TrxNomorRekening As String, ByVal TrxSumberInformasi As String, ByVal TrxCategory As String, ByVal TrxLevel1 As String,
+                                            ByVal TrxNomorRekening As String, ByVal TrxSumberInformasi As String, ByVal TrxMainCategory As String, ByVal TrxCategory As String, ByVal TrxLevel1 As String,
                                             ByVal TrxLevel2 As String, ByVal TrxLevel3 As String, ByVal TrxComplaint As String, ByVal TrxResponse As String, ByVal TrxChannel As String, ByVal TrxStatus As String, ByVal TrxEskalasi As String,
                                             ByVal TrxSLA As String, ByVal TrxExtendCategory As String, ByVal TrxLayer As String, ByVal TrxThreadID As String, ByVal TrxGenesysID As String, ByVal TxtContactID As String, ByVal TrxIDchannel As String) As String
         Dim listTickets As List(Of listTransaction) = New List(Of listTransaction)()
@@ -325,6 +325,7 @@ Public Class Crm_Trx_Ticket1
             strTrxContactID = TxtContactID
             strTrxIDchannel = TrxIDchannel
         End If
+
         Try
             Using con As New SqlConnection(constr)
                 Dim sqlComm As New SqlCommand()
@@ -334,6 +335,7 @@ Public Class Crm_Trx_Ticket1
                 sqlComm.Parameters.AddWithValue("Customerid", TrxCustomerID)
                 sqlComm.Parameters.AddWithValue("TicketNumber", strTime)
                 sqlComm.Parameters.AddWithValue("TicketSourceName", TrxChannel)
+                sqlComm.Parameters.AddWithValue("MainCategoryID", TrxMainCategory)
                 sqlComm.Parameters.AddWithValue("CategoryID", TrxCategory)
                 sqlComm.Parameters.AddWithValue("SubCategory1ID", TrxLevel1)
                 sqlComm.Parameters.AddWithValue("SubCategory2ID", TrxLevel2)
@@ -375,7 +377,7 @@ Public Class Crm_Trx_Ticket1
             objectTickets.Result = "False"
             objectTickets.TrxmsgSystem = ex.Message()
             listTickets.Add(objectTickets)
-            strExec = "exec Insert_Transaction " & "'" & TrxCustomerID & "'," & "'" & strTime & "'," & "'" & TrxChannel & "'," & "'" & TrxCategory & "'," & "'" & TrxLevel1 & "'," & "'" & TrxLevel2 & "'," & "'" & TrxLevel3 & "'," & "'" & HttpUtility.UrlDecode(TrxComplaint) & "'," & "'" & HttpUtility.UrlDecode(TrxResponse) & "'," & "'" & TrxSLA & "'," & "'" & TrxStatus & "'," & "'" & TrxUsername & "'," &
+            strExec = "exec Insert_Transaction " & "'" & TrxCustomerID & "'," & "'" & strTime & "'," & "'" & TrxChannel & "','" & TrxMainCategory & "'," & "'" & TrxCategory & "'," & "'" & TrxLevel1 & "'," & "'" & TrxLevel2 & "'," & "'" & TrxLevel3 & "'," & "'" & HttpUtility.UrlDecode(TrxComplaint) & "'," & "'" & HttpUtility.UrlDecode(TrxResponse) & "'," & "'" & TrxSLA & "'," & "'" & TrxStatus & "'," & "'" & TrxUsername & "'," &
                       "" & "'" & strTrxThreadID & "'," & "'" & TrxPelapor & "'," & "'" & TrxPelaporEmail & "'," & "'" & TrxPelaporPhone & "'," & "'" & HttpUtility.UrlDecode(TrxPelaporAddress) & "'," & "'" & strTrxAccount & "'," & "'" & TrxNomorRekening & "'," & "'" & TrxSkalaPrioritas & "'," & "'" & TrxJenisNasabah & "'," & "'" & TrxLevel3 & "'," & "'" & TrxSumberInformasi & "'," &
                       "" & "'" & TrxEskalasi & "'," & "'" & TrxLayer & "'," & "'" & strTrxThreadID & "', " & "'" & strTrxGenesysID & "', " & "'" & strTrxContactID & "'," & "'" & TrxExtendCategory & "'," & "'" & strTrxIDchannel & "'"
             LogError(HttpContext.Current.Session("UserName"), ex, strExec)
@@ -385,7 +387,7 @@ Public Class Crm_Trx_Ticket1
             objectTickets.TrxTicketNumber = strTime
             objectTickets.TrxmsgSystem = "Transaction Has Been Save"
             listTickets.Add(objectTickets)
-            strExec = "exec Insert_Transaction " & "'" & TrxCustomerID & "'," & "'" & strTime & "'," & "'" & TrxChannel & "'," & "'" & TrxCategory & "'," & "'" & TrxLevel1 & "'," & "'" & TrxLevel2 & "'," & "'" & TrxLevel3 & "'," & "'" & HttpUtility.UrlDecode(TrxComplaint) & "'," & "'" & HttpUtility.UrlDecode(TrxResponse) & "'," & "'" & TrxSLA & "'," & "'" & TrxStatus & "'," & "'" & TrxUsername & "'," &
+          strExec = "exec Insert_Transaction " & "'" & TrxCustomerID & "'," & "'" & strTime & "'," & "'" & TrxChannel & "','" & TrxMainCategory & "'," & "'" & TrxCategory & "'," & "'" & TrxLevel1 & "'," & "'" & TrxLevel2 & "'," & "'" & TrxLevel3 & "'," & "'" & HttpUtility.UrlDecode(TrxComplaint) & "'," & "'" & HttpUtility.UrlDecode(TrxResponse) & "'," & "'" & TrxSLA & "'," & "'" & TrxStatus & "'," & "'" & TrxUsername & "'," &
                       "" & "'" & strTrxThreadID & "'," & "'" & TrxPelapor & "'," & "'" & TrxPelaporEmail & "'," & "'" & TrxPelaporPhone & "'," & "'" & HttpUtility.UrlDecode(TrxPelaporAddress) & "'," & "'" & strTrxAccount & "'," & "'" & TrxNomorRekening & "'," & "'" & TrxSkalaPrioritas & "'," & "'" & TrxJenisNasabah & "'," & "'" & TrxLevel3 & "'," & "'" & TrxSumberInformasi & "'," &
                       "" & "'" & TrxEskalasi & "'," & "'" & TrxLayer & "'," & "'" & strTrxThreadID & "', " & "'" & strTrxGenesysID & "', " & "'" & strTrxContactID & "'," & "'" & TrxExtendCategory & "'," & "'" & strTrxIDchannel & "'"
             LogSuccess(HttpContext.Current.Session("UserName"), strExec)

@@ -150,7 +150,7 @@ function ActionCreateTicket() {
                     TrxPelapor: encodeData(TrxPelapor), TrxPelaporEmail: TrxPelaporEmail, TrxPelaporPhone: TrxPelaporPhone,
                     TrxPelaporAddress: encodeData(TrxPelaporAddress), TrxSkalaPrioritas: TrxSkalaPrioritas,                    
                     TrxJenisNasabah: TrxJenisNasabah, TrxNomorRekening: TrxNomorRekening, TrxSumberInformasi: TrxSumberInformasi,
-                    TrxCategory: TrxCategory, TrxLevel1: TrxLevel1, TrxLevel2: TrxLevel2, TrxLevel3: TrxLevel3,
+                    TrxMainCategory: TrxMainCategory, TrxCategory: TrxCategory, TrxLevel1: TrxLevel1, TrxLevel2: TrxLevel2, TrxLevel3: TrxLevel3,
                     TrxComplaint: encodeData(TrxConvertComplaint), TrxResponse: encodeData(TrxConvertResponse), TrxChannel: TrxChannel,
                     TrxStatus: TrxStatus, TrxEskalasi: TrxEskalasi, TrxSLA: TrxSLA, TrxExtendCategory: TrxExtendCategory, TrxLayer: TrxLayer,
                     TrxThreadID: TxtThreadID, TxtThreadID: TxtThreadID, TrxGenesysID: TrxGenesysID, TxtContactID: TxtContactID, TrxIDchannel: TrxIDchannel
@@ -1838,7 +1838,7 @@ function PublishTransaction() {
                                     'success'
                                 ).then(function () {
                                     $("#modal-list-transaction-ticket").modal('hide');
-                                    window.location.href = "Crm_Trx_Thread.aspx?";
+                                    window.location.href = "Crm_Trx_Taskboard.aspx?";
                                 });                            
                             } else {
                                 swal(
