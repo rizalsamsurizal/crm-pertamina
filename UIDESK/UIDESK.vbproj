@@ -1174,6 +1174,7 @@
     <Content Include="Apps\js\voice\Clean-Audio-Player-jQuery\js\audioplayer.js" />
     <Content Include="Apps\js\voice\Clean-Audio-Player-jQuery\js\JavaScript1.js" />
     <Content Include="Apps\js\voice\voicegoogle.js" />
+    <Content Include="Apps\js\ProfileCustomer.js" />
     <Content Include="Apps\js\Xtra_ReportTransactionTicket.js" />
     <Content Include="Apps\Out_TrxAgent.aspx" />
     <Content Include="Apps\Out_TrxTaskboard.aspx" />
@@ -1283,6 +1284,8 @@
     <Content Include="obj\Debug\UIDESK.vbproj.CoreCompileInputs.cache" />
     <Content Include="obj\Debug\UIDESK.vbproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\UIDESK.vbproj.GenerateResource.cache" />
+    <Content Include="Profile.html" />
+    <Content Include="ProfileCustomer.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -2224,6 +2227,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ProfileCustomer.aspx.designer.vb">
+      <DependentUpon>ProfileCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileCustomer.aspx.vb">
+      <DependentUpon>ProfileCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
