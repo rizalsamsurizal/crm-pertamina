@@ -14,6 +14,33 @@ Option Explicit On
 Partial Public Class Xtra_ReportTransactionTicket
 
     '''<summary>
+    '''dt_strdate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents dt_strdate As Global.DevExpress.Web.ASPxDateEdit
+
+    '''<summary>
+    '''dt_endate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents dt_endate As Global.DevExpress.Web.ASPxDateEdit
+
+    '''<summary>
+    '''btn_Submit control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btn_Submit As Global.DevExpress.Web.ASPxButton
+
+    '''<summary>
     '''ASPxGridView1 control.
     '''</summary>
     '''<remarks>
@@ -32,13 +59,13 @@ Partial Public Class Xtra_ReportTransactionTicket
     Protected WithEvents ddList As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''ExportReport control.
+    '''btn_Export control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ExportReport As Global.System.Web.UI.HtmlControls.HtmlAnchor
+    Protected WithEvents btn_Export As Global.DevExpress.Web.ASPxButton
 
     '''<summary>
     '''ASPxGridViewExporter1 control.

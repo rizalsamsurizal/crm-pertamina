@@ -27,8 +27,9 @@
                                     <thead>
                                         <tr>
                                             <th style="width: 150px; min-width: 150px;">Ticket Number</th>
+                                            <th style="width: 150px; min-width: 150px;">Tenant</th>
                                             <th style="width: 150px; min-width: 150px;">Name</th>
-                                            <th style="width: 150px; min-width: 150px;">Kategori</th>
+                                            <th style="width: 150px; min-width: 150px;">Main Category</th>
                                             <th style="width: 150px; min-width: 150px;">SLA</th>
                                             <th style="width: 150px; min-width: 150px;">Note SLA</th>
                                             <th style="width: 150px; min-width: 150px;">Position</th>

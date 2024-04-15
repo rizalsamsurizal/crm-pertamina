@@ -19,7 +19,7 @@ Public Class Xtra_ReportSLATicket
 
     End Sub
     Private Sub btn_Submit_Click(sender As Object, e As EventArgs) Handles btn_Submit.Click
-        Dim queryInsert As String = "exec R_SLA_new '" & Session("UserName") & "','" & Format(dt_strdate.Value, "yyyy-MM-dd") & "','" & Format(dt_endate.Value, "yyyy-MM-dd") & "'"
+        Dim queryInsert As String = "exec R_SLA_new '" & Session("UserName") & "','" & Format(dt_strdate.Value, "yyyy-MM-dd") & "','" & Format(dt_endate.Value, "yyyy-MM-dd") & "','INSERT'"
 
         com = New SqlCommand(queryInsert, con)
         Try
@@ -28,18 +28,20 @@ Public Class Xtra_ReportSLATicket
             con.Close()
 
         Catch ex As Exception
-            Response.Write(DirectCast(ex.Message() & "_exec R_SLA_new '" & Session("UserName") & "','" & Format(dt_strdate.Value, "yyyy-MM-dd") & "','" & Format(dt_endate.Value, "yyyy-MM-dd") & "'", String))
+            Response.Write(DirectCast(ex.Message() & "_exec R_SLA_new '" & Session("UserName") & "','" & Format(dt_strdate.Value, "yyyy-MM-dd") & "','" & Format(dt_endate.Value, "yyyy-MM-dd") & "','INSERT'", String))
         End Try
 
         ASPxGridView1.DataBind()
     End Sub
 
     Private Sub ASPxGridView1_Init(sender As Object, e As EventArgs) Handles ASPxGridView1.Init
-        tempTrxSLA.SelectCommand = "select *,10000 as Amount,dbo.udf_StripHTML(Description) as DescriptionNonHtml from [4_Report_sla] where Username='" & Session("UserName") & "'"
+        tempTrxSLA.SelectCommand = "exec R_SLA_new '" & Session("UserName") & "','" & Format(dt_strdate.Value, "yyyy-MM-dd") & "','" & Format(dt_endate.Value, "yyyy-MM-dd") & "','SELECT'"
+        'tempTrxSLA.SelectCommand = "select *,10000 as Amount,dbo.udf_StripHTML(Description) as DescriptionNonHtml from [4_Report_sla] where Username='" & Session("UserName") & "'"
     End Sub
 
     Private Sub ASPxGridView1_Load(sender As Object, e As EventArgs) Handles ASPxGridView1.Load
-        tempTrxSLA.SelectCommand = "select *,10000 as Amount,dbo.udf_StripHTML(Description) as DescriptionNonHtml from [4_Report_sla] where Username='" & Session("UserName") & "'"
+         tempTrxSLA.SelectCommand = "exec R_SLA_new '" & Session("UserName") & "','" & Format(dt_strdate.Value, "yyyy-MM-dd") & "','" & Format(dt_endate.Value, "yyyy-MM-dd") & "','SELECT'"
+        'tempTrxSLA.SelectCommand = "select *,10000 as Amount,dbo.udf_StripHTML(Description) as DescriptionNonHtml from [4_Report_sla] where Username='" & Session("UserName") & "'"
     End Sub
 
     Private Sub btn_Export_Click(sender As Object, e As EventArgs) Handles btn_Export.Click

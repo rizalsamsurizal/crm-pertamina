@@ -30,6 +30,22 @@
 
                             </div>
                         </div>
+                         <div class="mt-2">
+                            <ul class="nav nav-tabs nav-tabs-custom mb-4" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-bs-toggle="tab" href="#list-all" role="tab">All Customer <span class="badge rounded-pill bg-info">1980</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#list-active">Shared Service <span class="badge rounded-pill bg-warning">0</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#list-complete">PCC 135 Patra Niaga <span class="badge rounded-pill bg-success">1000</span></a>
+                                </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#list-complete">PCC 135 Abdul Muis <span class="badge rounded-pill bg-danger">980</span></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div>
                         <div class="row" id="DivCustomerSystem"></div>

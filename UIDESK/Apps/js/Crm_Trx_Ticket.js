@@ -3,7 +3,8 @@
     //$('#Ticket_AgentName').prop('disabled', true);
 
     $("#ActionNewCustomer").hide()
-    var ParameterAccount = getParameterByName("account")
+    //var ParameterAccount = getParameterByName("account")
+    var ParameterAccount = getParameterByName("val")
     if (ParameterAccount != "") {
         ValidasiDataCustomer(ParameterAccount)
         $("#UpdateCustomer").hide()
@@ -30,6 +31,7 @@
     getWS_MasterLoad();
     ScriptGreeting();
     DropdwonDataTenant();
+
 });
 
 function ActionCreateTicket() {
@@ -1838,7 +1840,7 @@ function PublishTransaction() {
                                     'success'
                                 ).then(function () {
                                     $("#modal-list-transaction-ticket").modal('hide');
-                                    window.location.href = "Crm_Trx_Taskboard.aspx?";
+                                    window.location.href = "Crm_Trx_Taskboard.aspx?status=Open";
                                 });                            
                             } else {
                                 swal(

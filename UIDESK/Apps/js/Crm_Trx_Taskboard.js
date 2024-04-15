@@ -154,7 +154,7 @@ function DataTableTaskboard() {
                         var TrxPosition = "Eksternal/Vendor"
                     }
 
-                    myTaskboardTicket.row.add([json[i].TicketNumber, json[i].NamePIC, json[i].CategoryName, json[i].SLA, json[i].UsedDaySLAOK, TrxPosition, TrxParam, ConverTanggal, urlAction]).draw(false);
+                    myTaskboardTicket.row.add([json[i].TicketNumber, json[i].TenantName, json[i].NamePIC, json[i].MainCategoryName, json[i].SLA, json[i].UsedDaySLAOK, TrxPosition, TrxParam, ConverTanggal, urlAction]).draw(false);
 
                 }
 

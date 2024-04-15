@@ -9,6 +9,7 @@
     <script src="js/alertify.min.js"></script>
     <script src="js/alertify.js"></script>
     <asp:HiddenField ID="TrxID" runat="server" />
+    <asp:HiddenField ID="TenantID" runat="server" />
     <%-- <div class="row">
         <div class="col-12">
             <div class="page-title-box d-flex align-items-center justify-content-between">

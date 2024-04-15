@@ -1,0 +1,30 @@
+Time: 07/04/2024 04:59:28:560 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Type.aspx' OR UrlUser2='Crm_Trm_Category_Type.aspx' OR UrlUser3='Crm_Trm_Category_Type.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 07/04/2024 11:14:20:935 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Type.aspx' OR UrlUser2='Crm_Trm_Category_Type.aspx' OR UrlUser3='Crm_Trm_Category_Type.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 07/04/2024 06:40:33:631 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '1323','0','0','0','0','0','0','0','0','0','0','admin','SELECT'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/04/2024 06:40:33:926 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1323','admin','UIDESK152-C'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/04/2024 06:41:05:481 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category_Reason.aspx' OR UrlUser2='Crm_Trm_Category_Reason.aspx' OR UrlUser3='Crm_Trm_Category_Reason.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 07/04/2024 10:25:31:791 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+

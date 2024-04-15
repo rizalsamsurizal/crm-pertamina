@@ -2663,6 +2663,33 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:UIDESK.Xtra_ReportTransactionTicket._dt_strdate">
+<summary>
+dt_strdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UIDESK.Xtra_ReportTransactionTicket._dt_endate">
+<summary>
+dt_endate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UIDESK.Xtra_ReportTransactionTicket._btn_Submit">
+<summary>
+btn_Submit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:UIDESK.Xtra_ReportTransactionTicket._ASPxGridView1">
 <summary>
 ASPxGridView1 control.
@@ -2681,9 +2708,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:UIDESK.Xtra_ReportTransactionTicket._ExportReport">
+<member name="F:UIDESK.Xtra_ReportTransactionTicket._btn_Export">
 <summary>
-ExportReport control.
+btn_Export control.
 </summary>
 <remarks>
 Auto-generated field.

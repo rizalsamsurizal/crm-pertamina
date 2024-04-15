@@ -273,7 +273,8 @@
                             </div>
                         </div>
                     </div>--%>
-                    <div class="dropdown d-inline-block">
+
+                    <%--<div class="dropdown d-inline-block">
                         <button type="button" class="btn header-item noti-icon" id="page-header-notifications-dropdown"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="icon-sm" data-feather="bell"></i>
@@ -296,8 +297,8 @@
                                 <a href="#" class="text-reset notification-item">
                                     <div class="d-flex border-bottom align-items-start">
                                         <div class="flex-shrink-0">
-                                            <%-- <img src="assets/images/users/avatar-3.jpg"
-                                                class="me-3 rounded-circle avatar-sm" alt="user-pic">--%>
+                                             <img src="assets/images/users/avatar-3.jpg"
+                                                class="me-3 rounded-circle avatar-sm" alt="user-pic">
                                             <div class="avatar-sm me-3">
                                                 <span class="avatar-title bg-warning rounded-circle font-size-16">
                                                     <i class="uil-shopping-basket"></i>
@@ -354,8 +355,8 @@
                                 <a href="#" class="text-reset notification-item">
                                     <div class="d-flex border-bottom align-items-start">
                                         <div class="flex-shrink-0">
-                                            <%--<img src="assets/images/users/avatar-4.jpg"
-                                                class="me-3 rounded-circle avatar-sm" alt="user-pic">--%>
+                                            <img src="assets/images/users/avatar-4.jpg"
+                                                class="me-3 rounded-circle avatar-sm" alt="user-pic">
                                             <div class="avatar-sm me-3">
                                                 <span class="avatar-title bg-soft-danger text-success rounded-circle font-size-16">
                                                     <i class="uil-truck"></i>
@@ -378,7 +379,7 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div>--%>
                     <div class="dropdown d-inline-block">
                         <button type="button" class="btn header-item noti-icon right-bar-toggle" id="right-bar-toggle">
                             <i class="icon-sm" data-feather="settings"></i>

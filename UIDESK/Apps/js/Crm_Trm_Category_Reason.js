@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    ComboCategory();
+    //ComboCategory();
     //cmbEscalationUnit();
     ComboEskalasiLayer();
     DataTableDetailSubCategoryLast();
@@ -7,341 +7,7 @@
     $("#Delete").hide();
     DropdwonDataTenant();
 });
-function DataTableDetailSubCategoryLast() {
-    var myTable = $('#TrmCategory').DataTable();
-    $.ajax({
-        type: "POST",
-        url: "asmx/Crm_Trm_Category_Reason.asmx/TableTransactionTrmCategoryReason",
-        data: "{ TrxID:  '-', TrxCategoryID: '0', TrxSubCategory1ID: '0', TrxSubCategory2ID: '0', TrxName: '0', TrxEscalationUnit: '0', TrxLayer: '0', TrxSLA: '0', TrxStatus: '0', TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (data) {
-            var json = JSON.parse(data.d);
-            var i = "";
 
-            myTable.clear().draw();
-            for (i = 0; i < json.length; i++) {
-
-                if (json[i].NA == "Y") {
-                    var Status = "Active"
-                } else {
-                    var Status = "Non Active"
-                }
-                //var urlclick = "<span class='badge-soft-primary'><i class='fas fa-edit' onclick=UpdateKlik(" + json[i].ID + ") style='cursor:pointer;'></i></span>"
-                var urlclick = '<div class="flex-shrink-0 ms-2">' +
-                    '<div class="dropdown">' +
-                    '<a href="#" class="dropdown-toggle font-size-16 text-muted" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">' +
-                    '<i class="mdi mdi-dots-horizontal"></i>' +
-                    '</a>' +
-                    '<div class="dropdown-menu dropdown-menu-end">' +
-                    '<a class="dropdown-item" href="#" onclick=UpdateKlik(' + json[i].ID + ') >Edit</a>' +
-                    '</div>' +
-                    '</div>'
-                myTable.row.add([json[i].ID, json[i].NamaGrup, json[i].MainCategory, json[i].CategoryName, json[i].CategoryType, json[i].CategoryDetail, decodeHTMLEntities(json[i].SubName), json[i].TujuanEscalation, json[i].Layer, json[i].SLA, Status, urlclick]).draw(false);
-            }
-
-        },
-        error: function (xmlHttpRequest, textStatus, errorThrown) {
-            console.log(xmlHttpRequest.responseText);
-            console.log(textStatus);
-            console.log(errorThrown);
-        }
-    })
-}
-function TrmSelectCategoryReason() {
-    $.ajax({
-        type: "POST",
-        url: "asmx/Crm_Trm_Category_Reason.asmx/SelectTransactionTrmCategoryReason",
-        data: "{ TrxID:  '" + $("#ContentPlaceHolder1_TrxID").val() + "', TrxCategoryID: '0', TrxSubCategory1ID: '0', TrxSubCategory2ID: '0', TrxName: '0', TrxEscalationUnit: '0', TrxLayer: '0', TrxSLA: '0', TrxStatus: '0', TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (data) {
-            var json = JSON.parse(data.d);
-            var i = "";
-
-            for (i = 0; i < json.length; i++) {
-
-                $('#cmbCategory option:selected').text(json[i].CategoryName);
-                $("#cmbCategoryType option:selected").text(json[i].CategoryType);
-                //$('#cmbCategoryType').attr('disabled', true);
-                $("#cmbCategoryDetail option:selected").text(json[i].CategoryDetail);
-                //$('#cmbCategoryDetail').attr('disabled', true);
-                $('#TxtCategoryReasonName').val(json[i].SubName);
-                //CKEDITOR.instances.TxtCategoryReasonName.setData(json[i].SubName)
-                $("#cmbEscalationUnit option:selected").text(json[i].TujuanEscalation);
-                $("#ComboLayer option:selected").text(json[i].Layer);
-                $('#TxtSLA').val(json[i].SLA);
-                $("#cmbStatus option:selected").text(json[i].Status);
-                $("#ContentPlaceHolder1_Hd_CmbCategory").val(json[i].CategoryID);
-                $("#ContentPlaceHolder1_Hd_CmbCategoryType").val(json[i].SubCategory1ID);
-                $("#ContentPlaceHolder1_Hd_CmbCategoryDetail").val(json[i].SubCategory2ID);
-                $("#ContentPlaceHolder1_Hd_EscalationUnit").val(json[i].TujuanEskalasi);
-                $("#ContentPlaceHolder1_Hd_Status").val(json[i].NA);
-                $("#ContentPlaceHolder1_Hd_ComboLayer").val(json[i].Layer);
-            }
-
-        },
-        error: function (xmlHttpRequest, textStatus, errorThrown) {
-            console.log(xmlHttpRequest.responseText);
-            console.log(textStatus);
-            console.log(errorThrown);
-        }
-    })
-}
-function ComboCategory() {
-    var cmbCategorySource = $('#cmbCategory');
-    $.ajax({
-        type: "POST",
-        url: "WebServiceGetDataMaster.asmx/UIDESK_TrmDropdown",
-        data: "{TrxID:'UideskIndonesia', TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (data) {
-            var json = JSON.parse(data.d);
-            var i = "";
-
-            cmbCategorySource.empty();
-            cmbCategorySource.append('<option value="">Select</option>');
-            for (i = 0; i < json.length; i++) {
-
-                resultCategory = '<option value="' + json[i].CategoryID + '">' + json[i].Name + '</option>';
-                cmbCategorySource.append(resultCategory);
-
-            }
-
-        },
-        error: function (xmlHttpRequest, textStatus, errorThrown) {
-            console.log(xmlHttpRequest.responseText);
-            console.log(textStatus);
-            console.log(errorThrown);
-        }
-    })
-}
-function cmbEscalationUnit() {
-    var cmbEscalationUnit = $('#cmbEscalationUnit');
-    $.ajax({
-        type: "POST",
-        url: "WebServiceGetDataMaster.asmx/UIDESK_TrmEscalationUnit",
-        data: "{TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (data) {
-            var json = JSON.parse(data.d);
-            var i, x, resultEscalationUnit = "";
-
-            cmbEscalationUnit.empty();
-            cmbEscalationUnit.append('<option value="">Select</option>');
-            for (i = 0; i < json.length; i++) {
-
-                resultEscalationUnit = '<option value="' + json[i].ORGANIZATION_ID + '">' + json[i].ORGANIZATION_NAME + '</option>';
-                cmbEscalationUnit.append(resultEscalationUnit);
-
-            }
-
-        },
-        error: function (xmlHttpRequest, textStatus, errorThrown) {
-            console.log(xmlHttpRequest.responseText);
-            console.log(textStatus);
-            console.log(errorThrown);
-        }
-    })
-}
-function ComboEskalasiLayer() {
-    var ComboLayer = $('#ComboLayer');
-    $.ajax({
-        type: "POST",
-        url: "asmx/Crm_Trm_Category_Reason.asmx/V2_UIDESK_TrxLayer",
-        data: "{TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (data) {
-            var json = JSON.parse(data.d);
-            var i, x, ResultLayer = "";
-
-            ComboLayer.empty();
-            ComboLayer.append('<option value="">Select</option>');
-            for (i = 0; i < json.length; i++) {
-
-                ResultLayer = '<option value="' + json[i].Layer + '">' + json[i].Layer + '</option>';
-                ComboLayer.append(ResultLayer);
-
-            }
-
-        },
-        error: function (xmlHttpRequest, textStatus, errorThrown) {
-            console.log(xmlHttpRequest.responseText);
-            console.log(textStatus);
-            console.log(errorThrown);
-        }
-    })
-}
-function getWS_CategoryType(value) {
-    var JenisKondisi = "AllWhereData";
-    var selectedText = $("#cmbCategory").find("option:selected").text();
-    var selectedValue = $("#cmbCategory").val();
-    $("#ContentPlaceHolder1_Hd_CmbCategory").val(selectedValue);
-    console.log("Selected Text: " + selectedText + " Value: " + selectedValue);
-
-    var cmbCategoryType = $('#cmbCategoryType');
-    $.ajax({
-        type: "POST",
-        url: "WebServiceGetDataMaster.asmx/OnChangeTransactionTrmCategoryType",
-        data: "{TrxID:'" + selectedValue + "', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxName: '0', TrxStatus: '0'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (data) {
-            var json = JSON.parse(data.d);
-            var i, x, resultCategoryType = "";
-
-            cmbCategoryType.empty();
-            cmbCategoryType.append('<option value="">Select</option>');
-            for (i = 0; i < json.length; i++) {
-                resultCategoryType = '<option value="' + json[i].SubCategory1ID + '">' + json[i].SubName + '</option>';
-                cmbCategoryType.append(resultCategoryType);
-            }
-
-        },
-        error: function (xmlHttpRequest, textStatus, errorThrown) {
-            console.log(xmlHttpRequest.responseText);
-            console.log(textStatus);
-            console.log(errorThrown);
-        }
-    })
-
-    //var cmbCategoryType = $('#cmbCategoryType');
-    //var jsonText = JSON.stringify({ tableType: JenisKondisi, tableName: "TrmCategoryType", paramQuery: "where NA='Y' and CategoryID='" + selectedValue + "'" });
-    //$.ajax({
-    //    type: "POST",
-    //    url: "WebServiceGetDataMaster.asmx/GetWhereRecords",
-    //    data: jsonText,
-    //    contentType: "application/json; charset=utf-8",
-    //    dataType: "json",
-    //    success: function (data) {
-    //        var json = JSON.parse(data.d);
-    //        var i, x, resultCategoryType = "";
-
-    //        cmbCategoryType.empty();
-    //        cmbCategoryType.append('<option value="">Select</option>');
-    //        for (i = 0; i < json.length; i++) {
-
-    //            resultCategoryType = '<option value="' + json[i].SubCategory1ID + '">' + json[i].SubName + '</option>';
-    //            cmbCategoryType.append(resultCategoryType);
-    //        }
-
-    //    },
-    //    error: function (xmlHttpRequest, textStatus, errorThrown) {
-    //        console.log(xmlHttpRequest.responseText);
-    //        console.log(textStatus);
-    //        console.log(errorThrown);
-    //    }
-    //})
-}
-function getWS_CategoryTypeDetail(value) {
-    var selectedText = $("#cmbCategoryType").find("option:selected").text();
-    var selectedValue = $("#cmbCategoryType").val();
-    console.log("Selected Text: " + selectedText + " Value: " + selectedValue);
-    $("#ContentPlaceHolder1_Hd_CmbCategoryType").val(selectedValue)
-    //alert(selectedValue)
-    //alert($("#ContentPlaceHolder1_Hd_CmbCategoryType").val())
-
-    var cmbCategoryDetail = $('#cmbCategoryDetail');
-    $.ajax({
-        type: "POST",
-        url: "WebServiceGetDataMaster.asmx/OnChangeTransactionTrmCategoryDetail",
-        data: "{TrxID:'" + selectedValue + "', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxName: '0', TrxStatus: '0'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (data) {
-            var json = JSON.parse(data.d);
-            var i, x, resultCategoryDetail = "";
-
-            cmbCategoryDetail.empty();
-            cmbCategoryDetail.append('<option value="">Select</option>');
-            for (i = 0; i < json.length; i++) {
-                resultCategoryDetail = '<option value="' + json[i].SubCategory2ID + '">' + json[i].SubName + '</option>';
-                cmbCategoryDetail.append(resultCategoryDetail);
-            }
-
-        },
-        error: function (xmlHttpRequest, textStatus, errorThrown) {
-            console.log(xmlHttpRequest.responseText);
-            console.log(textStatus);
-            console.log(errorThrown);
-        }
-    })
-
-    //var cmbCategoryDetail = $('#cmbCategoryDetail');
-    //var jsonText = JSON.stringify({ tableType: 'AllWhereData', tableName: "mSubCategoryLv2", paramQuery: "where NA='Y' and SubCategory1ID='" + selectedValue + "'" });
-    //$.ajax({
-    //    type: "POST",
-    //    url: "WebServiceGetDataMaster.asmx/GetWhereRecords",
-    //    data: jsonText,
-    //    contentType: "application/json; charset=utf-8",
-    //    dataType: "json",
-    //    success: function (data) {
-    //        var json = JSON.parse(data.d);
-    //        var i, x, resultSourceEnquiryDetail = "";
-    //        cmbCategoryDetail.empty();
-    //        cmbCategoryDetail.append('<option value="">Select</option>');
-    //        for (i = 0; i < json.length; i++) {
-
-    //            resultCategoryDetail = '<option value="' + json[i].SubCategory2ID + '">' + json[i].SubName + '</option>';
-    //            cmbCategoryDetail.append(resultCategoryDetail);
-    //        }
-
-    //    },
-    //    error: function (xmlHttpRequest, textStatus, errorThrown) {
-    //        console.log(xmlHttpRequest.responseText);
-    //        console.log(textStatus);
-    //        console.log(errorThrown);
-    //    }
-    //})
-}
-function getWS_CategoryTypeDetail_Value(value) {
-    var selectedText = $("#cmbCategoryDetail").find("option:selected").text();
-    var selectedValue = $("#cmbCategoryDetail").val();
-    console.log("Selected Text: " + selectedText + " Value: " + selectedValue);
-    $("#ContentPlaceHolder1_Hd_CmbCategoryDetail").val(selectedValue)
-    //alert(selectedValue)
-    //alert($("#ContentPlaceHolder1_Hd_CmbCategoryDetail").val())
-}
-function getWS_EscalationUnit(value) {
-    var selectedText = $("#cmbEscalationUnit").find("option:selected").text();
-    var selectedValue = $("#cmbEscalationUnit").val();
-    console.log("Selected Text: " + selectedText + " Value: " + selectedValue);
-    $("#ContentPlaceHolder1_Hd_EscalationUnit").val(selectedValue)
-    //alert(selectedValue)
-    //alert($("#ContentPlaceHolder1_Hd_CmbCategoryDetail").val())
-}
-function getWS_Status(value) {
-    var selectedText = $("#cmbStatus").find("option:selected").text();
-    var selectedValue = $("#cmbStatus").val();
-    console.log("Selected Text: " + selectedText + " Value: " + selectedValue);
-    $("#ContentPlaceHolder1_Hd_Status").val(selectedValue)
-    //alert(selectedValue)
-    //alert($("#ContentPlaceHolder1_Hd_CmbCategoryDetail").val())
-}
-function getWS_ComboLayer(value) {
-    var selectedText = $("#ComboLayer").find("option:selected").text();
-    var selectedValue = $("#ComboLayer").val();
-    $("#ContentPlaceHolder1_Hd_ComboLayer").val(selectedValue);
-}
-function Tambah() {
-    $("#addContactModal").modal('show');
-    $("#Simpan").show();
-    $("#Update").hide();
-    $("#Delete").hide();
-    ClearObject()
-    ComboEskalasiLayer()
-}
-function UpdateKlik(TrxID) {
-    $("#ContentPlaceHolder1_TrxID").val(TrxID);
-    $("#addContactModal").modal('show');
-    $("#Simpan").hide();
-    $("#Update").show();
-    $("#Delete").hide();
-    TrmSelectCategoryReason();
-}
 function ActionSimpan() {
     var CmbTenantText = $("#cmbTenant").find("option:selected").text();
     var CmbTenantValue = $("#cmbTenant").val();
@@ -565,7 +231,9 @@ function ActionUpdate() {
             return false;
         });
         return false;
-    } 
+    }
+    var TenantID = $("#ContentPlaceHolder1_Hd_CmbTenantID").val();
+    var MainCategoryID = $("#ContentPlaceHolder1_Hd_MainCategoryID").val();
     var TrxCmbCategory = $("#ContentPlaceHolder1_Hd_CmbCategory").val();
     var TrxCmbCategoryType = $("#ContentPlaceHolder1_Hd_CmbCategoryType").val();
     var TrxCmbCategoryDetail = $("#ContentPlaceHolder1_Hd_CmbCategoryDetail").val();
@@ -584,7 +252,7 @@ function ActionUpdate() {
             if (willDelete) {
                 $("#LoaderPage").show();
                 var form_data = JSON.stringify({
-                    TrxID: $("#ContentPlaceHolder1_TrxID").val(), TrxCategoryID: TrxCmbCategory, TrxSubCategory1ID: TrxCmbCategoryType,
+                    TrxID: $("#ContentPlaceHolder1_TrxID").val(), TenantID: TenantID, MainCategoryID: MainCategoryID, TrxCategoryID: TrxCmbCategory, TrxSubCategory1ID: TrxCmbCategoryType,
                     TrxSubCategory2ID: TrxCmbCategoryDetail, TrxName: encodeData(TxtReasonName), TrxEscalationUnit: TrxCmbEscalationUnit,
                     TrxLayer: TrxCmbLayer, TrxSLA: TrxSLA, TrxStatus: TrxCmbStatus, TrxUserName: $("#hd_sessionLogin").val()
                 });
@@ -634,71 +302,10 @@ function ActionUpdate() {
             }
         });
 }
-function ClearObject() {
-    $('#cmbCategory option:selected').text("Select");
-    $('#cmbCategory').attr('disabled', false);
-    $('#cmbCategoryType option:selected').text("Select");
-    $('#cmbCategoryType').attr('disabled', false);
-    $('#cmbCategoryDetail option:selected').text("Select");
-    $('#cmbCategoryDetail').attr('disabled', false);
-    //$("#TxtCategoryReasonName").val("");
-    CKEDITOR.instances.TxtCategoryReasonName.setData("")
-    $('#cmbEscalationUnit option:selected').text("Select");
-    $("#TxtSLA").val("");
-    $("#cmbStatus").val("");
-}
-function encodeData(s) {
-    return encodeURIComponent(s).replace(/\-/g, "%2D").replace(/\_/g, "%5F").replace(/\./g, "%2E").replace(/\!/g, "%21").replace(/\~/g, "%7E").replace(/\*/g, "%2A").replace(/\'/g, "%27").replace(/\(/g, "%28").replace(/\)/g, "%29");
-}
-function decodeHTMLEntities(text) {
-    var entities = [
-        ['amp', '&'],
-        ['apos', '\''],
-        ['#x27', '\''],
-        ['#x2F', '/'],
-        ['#39', '\''],
-        ['#47', '/'],
-        ['lt', '<'],
-        ['gt', '>'],
-        ['nbsp', ' '],
-        ['quot', '"']
-    ];
-
-    for (var i = 0, max = entities.length; i < max; ++i)
-        text = text.replace(new RegExp('&' + entities[i][0] + ';', 'g'), entities[i][1]);
-
-    return text;
-}
-function DropdwonDataTenant() {
-    var cmbTenant = $('#cmbTenant');
-    $.ajax({
-        type: "POST",
-        url: "asmx/Crm_Trm_Category_Reason.asmx/UIDESK_TrmMasterCombo",
-        data: "{TrxID:'UideskIndonesia', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK06'}",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        success: function (data) {
-            var json = JSON.parse(data.d);
-            var i, x, resultTenant = "";
-
-            cmbTenant.empty();
-            cmbTenant.append('<option value="">Select</option>');
-            for (i = 0; i < json.length; i++) {
-                resultTenant = '<option value="' + json[i].IdGrup + '">' + json[i].NamaGrup + '</option>';
-                cmbTenant.append(resultTenant);
-            }
-
-        },
-        error: function (xmlHttpRequest, textStatus, errorThrown) {
-            console.log(xmlHttpRequest.responseText);
-            console.log(textStatus);
-            console.log(errorThrown);
-        }
-    })
-}
 function ChangeFilterMainCategory() {
     var selectedText = $("#cmbTenant").find("option:selected").text();
     var selectedValue = $("#cmbTenant").val();
+    $("#ContentPlaceHolder1_Hd_CmbTenantID").val(selectedValue)
     var CmbMainCategory = $('#CmbMainCategory');
     $.ajax({
         type: "POST",
@@ -759,6 +366,7 @@ function ChangeFilterMainCategory() {
 function ChangeFilterCategory() {
     var selectedText = $("#CmbMainCategory").find("option:selected").text();
     var selectedValue = $("#CmbMainCategory").val();
+    $("#ContentPlaceHolder1_Hd_MainCategoryID").val(selectedValue)
     var cmbCategory = $('#cmbCategory');
     $.ajax({
         type: "POST",
@@ -856,4 +464,436 @@ function ChangeFilterDetailSubCategory(value) {
             console.log(errorThrown);
         }
     })
+}
+function ComboCategory() {
+    var cmbCategorySource = $('#cmbCategory');
+    $.ajax({
+        type: "POST",
+        url: "WebServiceGetDataMaster.asmx/UIDESK_TrmDropdown",
+        data: "{TrxID:'UideskIndonesia', TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i = "";
+
+            cmbCategorySource.empty();
+            cmbCategorySource.append('<option value="">Select</option>');
+            for (i = 0; i < json.length; i++) {
+
+                resultCategory = '<option value="' + json[i].CategoryID + '">' + json[i].Name + '</option>';
+                cmbCategorySource.append(resultCategory);
+
+            }
+
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+}
+function cmbEscalationUnit() {
+    var cmbEscalationUnit = $('#cmbEscalationUnit');
+    $.ajax({
+        type: "POST",
+        url: "WebServiceGetDataMaster.asmx/UIDESK_TrmEscalationUnit",
+        data: "{TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i, x, resultEscalationUnit = "";
+
+            cmbEscalationUnit.empty();
+            cmbEscalationUnit.append('<option value="">Select</option>');
+            for (i = 0; i < json.length; i++) {
+
+                resultEscalationUnit = '<option value="' + json[i].ORGANIZATION_ID + '">' + json[i].ORGANIZATION_NAME + '</option>';
+                cmbEscalationUnit.append(resultEscalationUnit);
+
+            }
+
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+}
+function ComboEskalasiLayer() {
+    var ComboLayer = $('#ComboLayer');
+    $.ajax({
+        type: "POST",
+        url: "asmx/Crm_Trm_Category_Reason.asmx/V2_UIDESK_TrxLayer",
+        data: "{TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i, x, ResultLayer = "";
+
+            ComboLayer.empty();
+            ComboLayer.append('<option value="">Select</option>');
+            for (i = 0; i < json.length; i++) {
+
+                ResultLayer = '<option value="' + json[i].Layer + '">' + json[i].Layer + '</option>';
+                ComboLayer.append(ResultLayer);
+
+            }
+
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+}
+function ClearObject() {
+    $('#cmbCategory option:selected').text("Select");
+    $('#cmbCategory').attr('disabled', false);
+    $('#cmbCategoryType option:selected').text("Select");
+    $('#cmbCategoryType').attr('disabled', false);
+    $('#cmbCategoryDetail option:selected').text("Select");
+    $('#cmbCategoryDetail').attr('disabled', false);
+    //$("#TxtCategoryReasonName").val("");
+    CKEDITOR.instances.TxtCategoryReasonName.setData("")
+    $('#cmbEscalationUnit option:selected').text("Select");
+    $("#TxtSLA").val("");
+    $("#cmbStatus").val("");
+}
+function DropdwonDataTenant() {
+    var cmbTenant = $('#cmbTenant');
+    $.ajax({
+        type: "POST",
+        url: "asmx/Crm_Trm_Category_Reason.asmx/UIDESK_TrmMasterCombo",
+        data: "{TrxID:'UideskIndonesia', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK06'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i, x, resultTenant = "";
+
+            cmbTenant.empty();
+            cmbTenant.append('<option value="">Select</option>');
+            for (i = 0; i < json.length; i++) {
+                resultTenant = '<option value="' + json[i].IdGrup + '">' + json[i].NamaGrup + '</option>';
+                cmbTenant.append(resultTenant);
+            }
+
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+}
+function decodeHTMLEntities(text) {
+    var entities = [
+        ['amp', '&'],
+        ['apos', '\''],
+        ['#x27', '\''],
+        ['#x2F', '/'],
+        ['#39', '\''],
+        ['#47', '/'],
+        ['lt', '<'],
+        ['gt', '>'],
+        ['nbsp', ' '],
+        ['quot', '"']
+    ];
+
+    for (var i = 0, max = entities.length; i < max; ++i)
+        text = text.replace(new RegExp('&' + entities[i][0] + ';', 'g'), entities[i][1]);
+
+    return text;
+}
+function DataTableDetailSubCategoryLast() {
+    var myTable = $('#TrmCategory').DataTable();
+    $.ajax({
+        type: "POST",
+        url: "asmx/Crm_Trm_Category_Reason.asmx/TableTransactionTrmCategoryReason",
+        data: "{ TrxID:  '-', TrxCategoryID: '0', TrxSubCategory1ID: '0', TrxSubCategory2ID: '0', TrxName: '0', TrxEscalationUnit: '0', TrxLayer: '0', TrxSLA: '0', TrxStatus: '0', TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i = "";
+
+            myTable.clear().draw();
+            for (i = 0; i < json.length; i++) {
+
+                if (json[i].NA == "Y") {
+                    var Status = "Active"
+                } else {
+                    var Status = "Non Active"
+                }
+                //var urlclick = "<span class='badge-soft-primary'><i class='fas fa-edit' onclick=UpdateKlik(" + json[i].ID + ") style='cursor:pointer;'></i></span>"
+                var urlclick = '<div class="flex-shrink-0 ms-2">' +
+                    '<div class="dropdown">' +
+                    '<a href="#" class="dropdown-toggle font-size-16 text-muted" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">' +
+                    '<i class="mdi mdi-dots-horizontal"></i>' +
+                    '</a>' +
+                    '<div class="dropdown-menu dropdown-menu-end">' +
+                    '<a class="dropdown-item" href="#" onclick=UpdateKlik(' + json[i].ID + ') >Edit</a>' +
+                    '</div>' +
+                    '</div>'
+                myTable.row.add([json[i].ID, json[i].NamaGrup, json[i].MainCategory, json[i].CategoryName, json[i].CategoryType, json[i].CategoryDetail, decodeHTMLEntities(json[i].SubName), json[i].TujuanEscalation, json[i].Layer, json[i].SLA, Status, urlclick]).draw(false);
+            }
+
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+}
+function encodeData(s) {
+    return encodeURIComponent(s).replace(/\-/g, "%2D").replace(/\_/g, "%5F").replace(/\./g, "%2E").replace(/\!/g, "%21").replace(/\~/g, "%7E").replace(/\*/g, "%2A").replace(/\'/g, "%27").replace(/\(/g, "%28").replace(/\)/g, "%29");
+}
+function getWS_CategoryType(value) {
+    var JenisKondisi = "AllWhereData";
+    var selectedText = $("#cmbCategory").find("option:selected").text();
+    var selectedValue = $("#cmbCategory").val();
+    $("#ContentPlaceHolder1_Hd_CmbCategory").val(selectedValue);
+    console.log("Selected Text: " + selectedText + " Value: " + selectedValue);
+
+    var cmbCategoryType = $('#cmbCategoryType');
+    $.ajax({
+        type: "POST",
+        url: "WebServiceGetDataMaster.asmx/OnChangeTransactionTrmCategoryType",
+        data: "{TrxID:'" + selectedValue + "', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxName: '0', TrxStatus: '0'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i, x, resultCategoryType = "";
+
+            cmbCategoryType.empty();
+            cmbCategoryType.append('<option value="">Select</option>');
+            for (i = 0; i < json.length; i++) {
+                resultCategoryType = '<option value="' + json[i].SubCategory1ID + '">' + json[i].SubName + '</option>';
+                cmbCategoryType.append(resultCategoryType);
+            }
+
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+
+    //var cmbCategoryType = $('#cmbCategoryType');
+    //var jsonText = JSON.stringify({ tableType: JenisKondisi, tableName: "TrmCategoryType", paramQuery: "where NA='Y' and CategoryID='" + selectedValue + "'" });
+    //$.ajax({
+    //    type: "POST",
+    //    url: "WebServiceGetDataMaster.asmx/GetWhereRecords",
+    //    data: jsonText,
+    //    contentType: "application/json; charset=utf-8",
+    //    dataType: "json",
+    //    success: function (data) {
+    //        var json = JSON.parse(data.d);
+    //        var i, x, resultCategoryType = "";
+
+    //        cmbCategoryType.empty();
+    //        cmbCategoryType.append('<option value="">Select</option>');
+    //        for (i = 0; i < json.length; i++) {
+
+    //            resultCategoryType = '<option value="' + json[i].SubCategory1ID + '">' + json[i].SubName + '</option>';
+    //            cmbCategoryType.append(resultCategoryType);
+    //        }
+
+    //    },
+    //    error: function (xmlHttpRequest, textStatus, errorThrown) {
+    //        console.log(xmlHttpRequest.responseText);
+    //        console.log(textStatus);
+    //        console.log(errorThrown);
+    //    }
+    //})
+}
+function getWS_CategoryTypeDetail(value) {
+    var selectedText = $("#cmbCategoryType").find("option:selected").text();
+    var selectedValue = $("#cmbCategoryType").val();
+    console.log("Selected Text: " + selectedText + " Value: " + selectedValue);
+    $("#ContentPlaceHolder1_Hd_CmbCategoryType").val(selectedValue)
+    //alert(selectedValue)
+    //alert($("#ContentPlaceHolder1_Hd_CmbCategoryType").val())
+
+    var cmbCategoryDetail = $('#cmbCategoryDetail');
+    $.ajax({
+        type: "POST",
+        url: "WebServiceGetDataMaster.asmx/OnChangeTransactionTrmCategoryDetail",
+        data: "{TrxID:'" + selectedValue + "', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxName: '0', TrxStatus: '0'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i, x, resultCategoryDetail = "";
+
+            cmbCategoryDetail.empty();
+            cmbCategoryDetail.append('<option value="">Select</option>');
+            for (i = 0; i < json.length; i++) {
+                resultCategoryDetail = '<option value="' + json[i].SubCategory2ID + '">' + json[i].SubName + '</option>';
+                cmbCategoryDetail.append(resultCategoryDetail);
+            }
+
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+
+    //var cmbCategoryDetail = $('#cmbCategoryDetail');
+    //var jsonText = JSON.stringify({ tableType: 'AllWhereData', tableName: "mSubCategoryLv2", paramQuery: "where NA='Y' and SubCategory1ID='" + selectedValue + "'" });
+    //$.ajax({
+    //    type: "POST",
+    //    url: "WebServiceGetDataMaster.asmx/GetWhereRecords",
+    //    data: jsonText,
+    //    contentType: "application/json; charset=utf-8",
+    //    dataType: "json",
+    //    success: function (data) {
+    //        var json = JSON.parse(data.d);
+    //        var i, x, resultSourceEnquiryDetail = "";
+    //        cmbCategoryDetail.empty();
+    //        cmbCategoryDetail.append('<option value="">Select</option>');
+    //        for (i = 0; i < json.length; i++) {
+
+    //            resultCategoryDetail = '<option value="' + json[i].SubCategory2ID + '">' + json[i].SubName + '</option>';
+    //            cmbCategoryDetail.append(resultCategoryDetail);
+    //        }
+
+    //    },
+    //    error: function (xmlHttpRequest, textStatus, errorThrown) {
+    //        console.log(xmlHttpRequest.responseText);
+    //        console.log(textStatus);
+    //        console.log(errorThrown);
+    //    }
+    //})
+}
+function getWS_CategoryTypeDetail_Value(value) {
+    var selectedText = $("#cmbCategoryDetail").find("option:selected").text();
+    var selectedValue = $("#cmbCategoryDetail").val();
+    console.log("Selected Text: " + selectedText + " Value: " + selectedValue);
+    $("#ContentPlaceHolder1_Hd_CmbCategoryDetail").val(selectedValue)
+    //alert(selectedValue)
+    //alert($("#ContentPlaceHolder1_Hd_CmbCategoryDetail").val())
+}
+function getWS_EscalationUnit(value) {
+    var selectedText = $("#cmbEscalationUnit").find("option:selected").text();
+    var selectedValue = $("#cmbEscalationUnit").val();
+    console.log("Selected Text: " + selectedText + " Value: " + selectedValue);
+    $("#ContentPlaceHolder1_Hd_EscalationUnit").val(selectedValue)
+    //alert(selectedValue)
+    //alert($("#ContentPlaceHolder1_Hd_CmbCategoryDetail").val())
+}
+function getWS_Status(value) {
+    var selectedText = $("#cmbStatus").find("option:selected").text();
+    var selectedValue = $("#cmbStatus").val();
+    console.log("Selected Text: " + selectedText + " Value: " + selectedValue);
+    $("#ContentPlaceHolder1_Hd_Status").val(selectedValue)
+    //alert(selectedValue)
+    //alert($("#ContentPlaceHolder1_Hd_CmbCategoryDetail").val())
+}
+function getWS_ComboLayer(value) {
+    var selectedText = $("#ComboLayer").find("option:selected").text();
+    var selectedValue = $("#ComboLayer").val();
+    $("#ContentPlaceHolder1_Hd_ComboLayer").val(selectedValue);
+}
+function TrmSelectCategoryReason() {
+    var CmbMainCategory = $('#CmbMainCategory');
+    $.ajax({
+        type: "POST",
+        url: "asmx/Crm_Trm_Category_Type.asmx/UIDESK_TrmMasterCombo",
+        data: "{TrxID:'" + $("#ContentPlaceHolder1_TrxID").val() + "', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK152-C'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i, x, resultMainCategory = "";
+
+            CmbMainCategory.empty();
+            CmbMainCategory.append('<option value="">Select</option>');
+            for (i = 0; i < json.length; i++) {
+
+                resultMainCategory = '<option value="' + json[i].ID + '">' + json[i].MainCategory + '</option>';
+                CmbMainCategory.append(resultMainCategory);
+
+            }
+
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+    $.ajax({
+        type: "POST",
+        url: "asmx/Crm_Trm_Category_Reason.asmx/SelectTransactionTrmCategoryReason",
+        data: "{ TrxID:  '" + $("#ContentPlaceHolder1_TrxID").val() + "', TrxCategoryID: '0', TrxSubCategory1ID: '0', TrxSubCategory2ID: '0', TrxName: '0', TrxEscalationUnit: '0', TrxLayer: '0', TrxSLA: '0', TrxStatus: '0', TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i = "";
+
+            for (i = 0; i < json.length; i++) {
+
+                $("#cmbTenant").find("option:selected").text();
+                $("#cmbTenant").val(json[i].TenantID);
+                $("#CmbMainCategory").find("option:selected").text();
+                $("#CmbMainCategory").val(json[i].MainCategoryID);
+                $('#cmbCategory option:selected').text(json[i].CategoryName);
+                $("#cmbCategoryType option:selected").text(json[i].CategoryType);
+                //$('#cmbCategoryType').attr('disabled', true);
+                $("#cmbCategoryDetail option:selected").text(json[i].CategoryDetail);
+                //$('#cmbCategoryDetail').attr('disabled', true);
+                $('#TxtCategoryReasonName').val(json[i].SubName);
+                //CKEDITOR.instances.TxtCategoryReasonName.setData(json[i].SubName)
+                $("#cmbEscalationUnit option:selected").text(json[i].TujuanEscalation);
+                $("#ComboLayer").find("option:selected").text();
+                $("#ComboLayer").val(json[i].Layer);
+                $('#TxtSLA').val(json[i].SLA);
+                $("#cmbStatus").find("option:selected").text();
+                $("#cmbStatus").val(json[i].NA);
+                $("#ContentPlaceHolder1_Hd_CmbTenantID").val(json[i].TenantID);
+                $("#ContentPlaceHolder1_Hd_MainCategoryID").val(json[i].MainCategoryID);
+                $("#ContentPlaceHolder1_Hd_CmbCategory").val(json[i].CategoryID);
+                $("#ContentPlaceHolder1_Hd_CmbCategoryType").val(json[i].SubCategory1ID);
+                $("#ContentPlaceHolder1_Hd_CmbCategoryDetail").val(json[i].SubCategory2ID);
+                $("#ContentPlaceHolder1_Hd_EscalationUnit").val(json[i].TujuanEskalasi);
+                $("#ContentPlaceHolder1_Hd_Status").val(json[i].NA);
+                $("#ContentPlaceHolder1_Hd_ComboLayer").val(json[i].Layer);
+            }
+
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+}
+function Tambah() {
+    $("#addContactModal").modal('show');
+    $("#Simpan").show();
+    $("#Update").hide();
+    $("#Delete").hide();
+    ClearObject()
+    ComboEskalasiLayer()
+}
+function UpdateKlik(TrxID) {
+    $("#ContentPlaceHolder1_TrxID").val(TrxID);
+    $("#addContactModal").modal('show');
+    $("#Simpan").hide();
+    $("#Update").show();
+    $("#Delete").hide();
+    TrmSelectCategoryReason();
 }

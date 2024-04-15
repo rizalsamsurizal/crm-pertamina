@@ -18,19 +18,41 @@
                                 <a href="#" class="btn btn-light" onclick="NewUser()">
                                     <i class="uil uil-plus me-1"></i>+ Add New
                                  </a>
+                                
                             </div>
                         </div>
                         <div class="col-md-9">
                             <div class="d-flex flex-wrap align-items-start justify-content-md-end gap-2 mb-3">
+                                <div class="btn-group me-2 mb-2 mb-sm-0">
+                                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa fa-building"></i>&nbsp;Tenant <i class="mdi mdi-dots-vertical ms-2"></i>
+                                    </button>
+                                    <div id="divCaseOwnerDropdownHeader" class="dropdown-menu"></div>
+                                </div>
                                 <div class="search-box ">
                                     <div class="position-relative">
                                         <input type="text" class="form-control bg-light border-light rounded" id="TxtSearchingUserName" placeholder="Search...">
                                         <i class="uil uil-search search-icon"></i>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
+                        <%--<div class="mt-2">
+                            <ul class="nav nav-tabs nav-tabs-custom mb-4" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-bs-toggle="tab" href="#list-all" role="tab">All User <span class="badge rounded-pill bg-info">70</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#list-active">Shared Service <span class="badge rounded-pill bg-warning">0</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#list-complete">PCC 135 Patra Niaga <span class="badge rounded-pill bg-success">40</span></a>
+                                </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#list-complete">PCC 135 Abdul Muis <span class="badge rounded-pill bg-danger">30</span></a>
+                                </li>
+                            </ul>
+                        </div>--%>
                     </div>
                     <div class="row" id="divUserNotification"></div>
                 </div>

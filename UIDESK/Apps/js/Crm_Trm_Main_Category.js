@@ -131,6 +131,113 @@ function ActionSimpan() {
         }
     })
 }
+function ActionUpdate() {
+    var TenantID = $("#CmbTenant").val();
+    var MainCategory = $("#MainCategory").val();
+    if ($("#ContentPlaceHolder1_TrxID").val() == '' || $("#ContentPlaceHolder1_TrxID").val() == null ) {
+        swal(
+            '',
+            'Data is empty',
+            'info'
+        ).then(function () {
+            return false;
+        });
+        return false;
+    }
+    $.ajax({
+        type: "POST",
+        url: "asmx/Crm_Trm_Main_Category.asmx/PTM_SP_MainCategory",
+        data: "{ID:'" + $("#ContentPlaceHolder1_TrxID").val() +"', UserName: '" + $("#hd_sessionLogin").val() + "', TenantID:'" + TenantID + "', ObjectName:'" + MainCategory + "', Status:'0', Action: 'CHECK'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+
+            var json = JSON.parse(data.d);
+            var i, x, result = "";
+
+            if (json.length == 0) {
+                swal({
+                    title: "Do you want to process?",
+                    icon: "warning",
+                    buttons: true,
+                    dangerMode: true,
+                })
+                    .then((willDelete) => {
+                        if (willDelete) {
+                            $("#LoaderPage").show();
+
+                            var form_data = JSON.stringify({
+                                ID: $("#ContentPlaceHolder1_TrxID").val(), UserName: $("#hd_sessionLogin").val(), TenantID: TenantID, ObjectName: MainCategory,
+                                Status: $("#cmbStatus").val(), Action: "UPDATE"
+                            });
+                            $.ajax({
+                                url: "asmx/Crm_Trm_Main_Category.asmx/PTM_SP_MainCategory",
+                                method: "POST",
+                                contentType: "application/json; charset=utf-8",
+                                dataType: "json",
+                                data: form_data,
+                                success: function (data) {
+                                    console.log(form_data)
+
+                                    var json = JSON.parse(data.d);
+                                    var i = "";
+                                    for (i = 0; i < json.length; i++) {
+                                        if (json[i].Result == "True") {
+                                            swal(
+                                                '',
+                                                'Update Data Has Been Success',
+                                                'success'
+                                            ).then(function () {
+                                                $("#CmbTenant").val("");
+                                                $("#MainCategory").val("");
+                                                $("#cmbStatus").val("");
+                                                $("#addContactModal").modal('hide');
+                                                window.location.href = "Crm_Trm_Main_Category.aspx?";
+                                            });
+                                        } else {
+                                            swal(
+                                                '',
+                                                'Update Data Has Been Failed !',
+                                                'error'
+                                            ).then(function () {
+                                                $("#addContactModal").modal('hide');
+                                                return false;
+                                            });
+                                            return false;
+                                        }
+                                    }
+
+                                },
+                                error: function (xmlHttpRequest, textStatus, errorThrown) {
+                                    console.log(xmlHttpRequest.responseText);
+                                    console.log(textStatus);
+                                    console.log(errorThrown);
+                                },
+                                complete: function () {
+
+                                }
+                            });
+
+                        }
+                    });
+            } else {
+                swal(
+                    '',
+                    '' + MainCategory + ' already exits',
+                    'error'
+                ).then(function () {
+                    window.location.href = "Crm_Trm_Main_Category.aspx?";
+                });
+                return false;
+            }
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+}
 function DataTableTransaksi() {
     var myTable = $('#DataTableMain').DataTable();
     $.ajax({

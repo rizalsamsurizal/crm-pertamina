@@ -63,6 +63,12 @@ function ComboEskalasiDepartment() {
         }
     })
 }
+function CustomerOtherChannel() {
+    alert("CustomerOtherChannel()")
+}
+function CustomerHistoryTicket() {
+    alert("CustomerHistoryTicket()")
+}
 function deleteAttachment(TrxID) {
     swal({
         title: "Do you want to process?",
@@ -291,6 +297,7 @@ function getWS_DataTicket() {
                 $("#CustomerCategory").val(json[i].JenisNasabah);
                 $("#PolisNumber").val(json[i].NomorRekening);
                 $("#TicketChannel").val(json[i].SumberInformasi);
+                $("#MainCategory").val(json[i].MainCategoryName);
                 $("#Category").val(json[i].CategoryName);
                 $("#EnquiryType").val(json[i].SubCategory1Name);
                 $("#EnquiryDetail").val(json[i].SubCategory2Name);

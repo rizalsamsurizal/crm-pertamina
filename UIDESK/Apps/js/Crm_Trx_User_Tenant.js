@@ -1,4 +1,5 @@
 ﻿$(document).ready(function () {
+    divTenantDropdownHeader();
     DataUserTenant();
     DropdwonDataTenant();
     DropdwonDataLevelUser();
@@ -11,11 +12,17 @@
         }
     });
 });
+
 function DataUserTenant() {
+    if (getParameterByName("id") == "" || getParameterByName("id") == null) {
+        var KondisiData = "0";
+    } else {
+        var KondisiData = getParameterByName("id");
+    }
     $.ajax({
         type: "POST",
         url: "asmx/Crm_Trx_User_Tenant.asmx/PTM_SP_UserTenant",
-        data: "{ID:'0', UserName: '" + $("#hd_sessionLogin").val() + "', UserID:'0', TenantID: '0', Action: 'TABLE'}",
+        data: "{ID:'0', UserName: '" + $("#hd_sessionLogin").val() + "', UserID:'0', TenantID: '" + KondisiData + "', Action: 'TABLE'}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {
@@ -229,6 +236,14 @@ function DataTableUser() {
         }
     })
 }
+function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
 function NewUser() {
     $("#modal-agent").modal('show');
     $("#btnSimpan").show();
@@ -395,4 +410,101 @@ function ButtonDelete(rec_id) {
 
             }
         });
+}
+function divTenantDropdownHeader() {
+    $.ajax({
+        type: "POST",
+        url: "asmx/Crm_Trx_User_Tenant.asmx/UIDESK_TrmMasterCombo",
+        data: "{TrxID:'UideskIndonesia', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK160'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i, x, resultTabTenant = "";
+
+            resultTabTenant = '<div>'
+            for (i = 0; i < json.length; i++) {
+
+                resultTabTenant += '<a class="dropdown-item" href="#" onclick=ActionTenant(' + json[i].IdGrup + ')>' + json[i].NamaGrup + ' <span class="badge rounded-pill bg-primary">' + json[i].Jumlah + '</span></a></div>'
+                   
+            }
+            $('#divTenantDropdownHeader').append(resultTabTenant)
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+}
+function ActionTenant(value) {
+    if (value == "1") {
+        location.href = "Crm_Trx_User_Tenant.aspx?id="
+    } else {
+        location.href = "Crm_Trx_User_Tenant.aspx?id=" + value + ""
+    }
+    //$("#ContentPlaceHolder1_TenantID").val(value);
+    //$.ajax({
+    //    type: "POST",
+    //    url: "asmx/Crm_Trx_User_Tenant.asmx/PTM_SP_UserTenant",
+    //    data: "{ID:'0', UserName: '" + $("#hd_sessionLogin").val() + "', UserID:'0', TenantID: '" + $("#ContentPlaceHolder1_TenantID").val() +"', Action: 'FILTER'}",
+    //    contentType: "application/json; charset=utf-8",
+    //    dataType: "json",
+    //    success: function (data) {
+    //        var json = JSON.parse(data.d);
+    //        var i = "";
+
+    //        $('#divUserNotification').empty();
+    //        for (i = 0; i < json.length; i++) {
+
+    //            if (json[i].LevelUser == "Layer 1") {
+    //                var color = "success"
+    //            } else if (json[i].LevelUser == "Layer 2") {
+    //                var color = "warning"
+    //            } else {
+    //                var color = "danger"
+    //            }
+    //            resultUserNotification = '<div class="col-xl-3 col-sm-6">' +
+    //                '<div class="card border shadow-none">' +
+    //                '<div class="card-body p-4">' +
+    //                '<div class="d-flex align-items-start">' +
+    //                '<div class="flex-shrink-0 avatar rounded-circle me-3">' +
+    //                '<img src="assets/images/users/avatar-1.jpg" alt="" class="img-fluid rounded-circle" >' +
+    //                '</div>' +
+    //                '<div class="flex-grow-1 overflow-hidden"> ' +
+    //                '<h5 class="font-size-15 mb-1 text-truncate"> <a href="#" class="text-dark">' + json[i].UserName + '</a></h5>' +
+    //                '<p class="text-muted text-truncate mb-0">' +
+    //                '<span class="text-dark">' + json[i].Name + '</span>' +
+    //                '</p>' +
+    //                '</div>' +
+    //                '<div class="flex-shrink-0 dropdown"> ' +
+    //                '<a class="text-body dropdown-toggle font-size-16" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"><i class="fa fas fa-ellipsis-h"></i></a> ' +
+    //                '<div class="dropdown-menu dropdown-menu-end"> ' +
+    //                //'<a class="dropdown-item" href="#" onclick=EditUser("' + json[i].ID + '")>Edit</a> ' +
+    //                '<a class="dropdown-item" href="#" onclick=ButtonDelete("' + json[i].ID + '")>Delete</a> ' +
+    //                '</div> ' +
+    //                '</div> ' +
+    //                '</div> ' +
+    //                '</div> ' +
+    //                '<div class="card-footer bg-transparent border-top d-flex">' +
+    //                '<div class="flex-grow-1">' +
+    //                '<span class="badge rounded-pill badge-soft-' + color + ' font-size-12">' + json[i].LevelUser + '</span>' +
+    //                '</div>' +
+    //                '<div class="flex-shrink-0 ms-2">' +
+    //                '<span class="badge rounded-pill badge-soft-primary font-size-12">' + json[i].TenantName + '</span>' +
+    //                '</div>' +
+    //                '</div>' +
+    //                '</div> ' +
+    //                '</div>'
+    //            $('#divUserNotification').append(resultUserNotification)
+
+    //        }
+
+    //    },
+    //    error: function (xmlHttpRequest, textStatus, errorThrown) {
+    //        console.log(xmlHttpRequest.responseText);
+    //        console.log(textStatus);
+    //        console.log(errorThrown);
+    //    }
+    //})
 }

@@ -21,17 +21,17 @@
                             </ValidationSettings>
                         </dx:ASPxDateEdit>
                     </div>
-                    <div class="col-md-2" style="margin-top: 5px;">
+                    <div class="col-md-2" style="margin-top: 0px;">
                         <dx:ASPxButton ID="btn_Submit" runat="server" Theme="Metropolis" AutoPostBack="False" Text="Submit" ValidationGroup="SMLvalidationGroup"
-                            Height="33px" Width="100%">
+                            Height="35px" Width="100%">
                         </dx:ASPxButton>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <dx:ASPxGridView ID="ASPxGridView1" runat="server" KeyFieldName="ID" Theme="MetropolisBlue"
-                            Width="100%" DataSourceID="tempTrxInteraction" Styles-Header-Font-Bold="true" Font-Size="X-Small"
-                            SettingsPager-PageSize="10">
+                            Width="100%" DataSourceID="tempTrxInteraction" Styles-Header-Font-Bold="true" Font-Size="Small" 
+                            SettingsPager-PageSize="10" Styles-Cell-HorizontalAlign="Center" Styles-Header-HorizontalAlign="Center">
                             <SettingsPager>
                                 <AllButton Text="All">
                                 </AllButton>
@@ -51,9 +51,9 @@
                                 </dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Ticket Number" FieldName="TicketNumber" Visible="false" Width="150px" GroupIndex="1" VisibleIndex="0"></dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Channel" FieldName="TicketSourceName" Width="100px" VisibleIndex="1"></dx:GridViewDataTextColumn>
-                                <dx:GridViewDataTextColumn Caption="Interaction ID" FieldName="GenesysID" Width="200px" VisibleIndex="2"></dx:GridViewDataTextColumn>
-                                <dx:GridViewDataTextColumn Caption="Thread ID" FieldName="ThreadID" Width="160px" VisibleIndex="3"></dx:GridViewDataTextColumn>
-                                <dx:GridViewDataTextColumn Caption="Agent Response" FieldName="ResponseComplaintNonHtml" Width="300px" VisibleIndex="4"></dx:GridViewDataTextColumn>
+                               <%-- <dx:GridViewDataTextColumn Caption="Interaction ID" FieldName="GenesysID" Width="200px" VisibleIndex="2"></dx:GridViewDataTextColumn>
+                                <dx:GridViewDataTextColumn Caption="Thread ID" FieldName="ThreadID" Width="160px" VisibleIndex="3"></dx:GridViewDataTextColumn>--%>
+                                <dx:GridViewDataTextColumn Caption="Agent Response" FieldName="ResponseComplaintNonHtml" Width="500px" VisibleIndex="4"></dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Escalation To" FieldName="DispatchTicket" Width="160px" VisibleIndex="5"></dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Escalation To Layer" FieldName="DispatchToLayer" Width="160px" VisibleIndex="6"></dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Escalation To Dept" FieldName="ORGANIZATION_NAME" Width="160px" VisibleIndex="7"></dx:GridViewDataTextColumn>
@@ -70,14 +70,14 @@
                         </dx:ASPxGridView>
                     </div>
                 </div>
-                <hr />
+                <br />
                 <div class="row">
                     <div class="col-md-2">
                         <asp:DropDownList runat="server" ID="ddList" Height="33" CssClass="form-control input-sm">
                             <asp:ListItem Value="xlsx" Text="Excel" />
                             <asp:ListItem Value="xls" Text="Excel 97-2003" />
-                            <asp:ListItem Value="pdf" Text="PDF" />
-                            <asp:ListItem Value="rtf" Text="RTF" />
+                           <%-- <asp:ListItem Value="pdf" Text="PDF" />
+                            <asp:ListItem Value="rtf" Text="RTF" />--%>
                             <asp:ListItem Value="csv" Text="CSV" />
                         </asp:DropDownList>
                     </div>

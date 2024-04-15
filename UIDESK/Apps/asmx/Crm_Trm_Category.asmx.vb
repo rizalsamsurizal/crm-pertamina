@@ -357,7 +357,7 @@ Public Class Crm_Trm_Category1
     End Function
     <WebMethod(EnableSession:=True)>
     <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
-    Public Function UpdateTransactionTrmCategory(ByVal TrxID As String, ByVal TrxUserName As String, ByVal TrxName As String, ByVal TrxStatus As String) As String
+    Public Function UpdateTransactionTrmCategory(ByVal TrxID As String, ByVal TenantID As String, ByVal MainCategoryID As String,ByVal TrxUserName As String, ByVal TrxName As String, ByVal TrxStatus As String) As String
         Dim NameXSS As String = AntiXssEncoder.HtmlEncode(TrxName.Trim, True)
         Dim UserNameXSS As String = AntiXssEncoder.HtmlEncode(TrxUserName.Trim, True)
         Dim listTickets As List(Of resultInsert) = New List(Of resultInsert)()
@@ -373,6 +373,8 @@ Public Class Crm_Trm_Category1
                 sqlComm.CommandText = "UIDESK_TrxCategory"
                 sqlComm.CommandType = CommandType.StoredProcedure
                 sqlComm.Parameters.AddWithValue("TrxID", TrxID)
+                sqlComm.Parameters.AddWithValue("TenantID", TenantID)
+                sqlComm.Parameters.AddWithValue("MainCategoryID", MainCategoryID)
                 sqlComm.Parameters.AddWithValue("TrxUserName", UserNameXSS)
                 sqlComm.Parameters.AddWithValue("TrxName", NameXSS)
                 sqlComm.Parameters.AddWithValue("TrxStatus", TrxStatus)
@@ -391,7 +393,7 @@ Public Class Crm_Trm_Category1
             objectTickets.Result = "False"
             objectTickets.TrxmsgSystem = ex.Message()
             listTickets.Add(objectTickets)
-            strExec = "exec UIDESK_TrxCategory " & ",'" & TrxID & "','" & UserNameXSS & "','" & NameXSS & "','" & TrxStatus & "','" & TrxAction & "'"
+            strExec = "exec UIDESK_TrxCategory " & ",'" & TrxID & "','" & TenantID & "','" & MainCategoryID & "','" & UserNameXSS & "','" & NameXSS & "','" & TrxStatus & "','" & TrxAction & "'"
             LogError(HttpContext.Current.Session("UserName"), ex, strExec)
         Finally
             Dim objectTickets As resultInsert = New resultInsert()
@@ -400,14 +402,14 @@ Public Class Crm_Trm_Category1
                 objectTickets.TrxID = _CategoryID
                 objectTickets.TrxmsgSystem = "Data Category Has Been Save"
                 listTickets.Add(objectTickets)
-                strExec = "exec UIDESK_TrxCategory " & ",'" & TrxID & "','" & UserNameXSS & "','" & NameXSS & "','" & TrxStatus & "','" & TrxAction & "'"
+                strExec = "exec UIDESK_TrxCategory " & ",'" & TrxID & "','" & TenantID & "','" & MainCategoryID & "','" & UserNameXSS & "','" & NameXSS & "','" & TrxStatus & "','" & TrxAction & "'"
                 LogSuccess(HttpContext.Current.Session("UserName"), strExec)
             Else
                 objectTickets.Result = "False"
                 objectTickets.TrxID = _CategoryID
                 objectTickets.TrxmsgSystem = _CategoryID
                 listTickets.Add(objectTickets)
-                strExec = "exec UIDESK_TrxCategory " & ",'" & TrxID & "','" & UserNameXSS & "','" & NameXSS & "','" & TrxStatus & "','" & TrxAction & "'"
+                strExec = "exec UIDESK_TrxCategory " & ",'" & TrxID & "','" & TenantID & "','" & MainCategoryID & "','" & UserNameXSS & "','" & NameXSS & "','" & TrxStatus & "','" & TrxAction & "'"
                 LogSuccess(HttpContext.Current.Session("UserName"), strExec)
                 LogSuccess(HttpContext.Current.Session("UserName"), _CategoryID)
             End If

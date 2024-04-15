@@ -51,7 +51,7 @@ function TrmSelectGroupAgent(TrxID) {
     $.ajax({
         type: "POST",
         url: "WebServiceGetDataMaster.asmx/SelectTransactionTrmGroupAgent",
-        data: "{TrxID:'" + $("#ContentPlaceHolder1_TrxID").val() + "', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxName:'" + $("#TxtGroupAgent").val() + "', TrxAction:'SELECT'}",
+        data: "{TrxID:'" + $("#ContentPlaceHolder1_TrxID").val() + "', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxStatus:'" + $("#cmbStatus").val() +"', TrxName:'" + $("#TxtGroupAgent").val() + "', TrxAction:'SELECT'}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {
@@ -149,7 +149,7 @@ function ActionSimpan() {
                                     'Insert Data Has Been Success',
                                     'success'
                                 ).then(function () {
-                                    window.location.href = "Crm_Trm_Group_Agent.aspx";
+                                    window.location.href = "Crm_Trm_Group_Agent.aspx?";
                                 });
                             } else if (json[i].Result == "Exits") {
                                 swal(
@@ -229,7 +229,7 @@ function ActionUpdate() {
                                     'Update Data Has Been Success',
                                     'success'
                                 ).then(function () {
-                                    window.location.href = "Crm_Trm_Group_Agent.aspx";
+                                    window.location.href = "Crm_Trm_Group_Agent.aspx?";
                                 });
                             } else {
                                 swal(

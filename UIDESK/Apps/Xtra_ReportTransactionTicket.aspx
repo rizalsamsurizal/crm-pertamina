@@ -3,40 +3,40 @@
 <%@ Register Assembly="DevExpress.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <script src="js/jquery-1.9.1.min.js"></script>
+    <%--    <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/Xtra_ReportTransactionTicket.js"></script>
-    <script src="js/sweetalert.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>--%>
     <div class="row">
         <div class="card">
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-2">
-                        <input type="date" class="form-control" id="dt_strdate" placeholder="Start Date" required>
-                        <%-- <dx:ASPxDateEdit ID="dt_strdate" runat="server" CssClass="form-control input-sm" Width="100%" EditFormatString="yyyy-MM-dd">
+                        <%--<input type="date" class="form-control" id="dt_strdate" placeholder="Start Date" required>--%>
+                        <dx:ASPxDateEdit ID="dt_strdate" runat="server" CssClass="form-control input-sm" Width="100%" EditFormatString="yyyy-MM-dd">
                             <ValidationSettings ErrorTextPosition="Bottom" ErrorDisplayMode="ImageWithText" ValidationGroup="SMLvalidationGroup">
                                 <RequiredField IsRequired="true" ErrorText="Must be filled" />
                             </ValidationSettings>
-                        </dx:ASPxDateEdit>--%>
+                        </dx:ASPxDateEdit>
                     </div>
                     <div class="col-md-2">
-                        <input type="date" class="form-control" id="dt_endate" placeholder="End Date" required>
-                        <%--<dx:ASPxDateEdit ID="dt_endate" runat="server" CssClass="form-control input-sm" Width="100%" EditFormatString="yyyy-MM-dd">
+                        <%--<input type="date" class="form-control" id="dt_endate" placeholder="End Date" required>--%>
+                        <dx:ASPxDateEdit ID="dt_endate" runat="server" CssClass="form-control input-sm" Width="100%" EditFormatString="yyyy-MM-dd">
                             <ValidationSettings ErrorTextPosition="Bottom" ErrorDisplayMode="ImageWithText" ValidationGroup="SMLvalidationGroup">
                                 <RequiredField IsRequired="true" ErrorText="Must be filled" />
                             </ValidationSettings>
-                        </dx:ASPxDateEdit>--%>
+                        </dx:ASPxDateEdit>
                     </div>
                     <div class="col-md-2">
-                        <a class="btn btn-primary w-sm" onclick="ActionSubmitReport()">Submit</a>
-                        <%--   <dx:ASPxButton ID="btn_Submit" runat="server" Theme="Metropolis" AutoPostBack="False" Text="Submit" ValidationGroup="SMLvalidationGroup"
-                            Height="33px" Width="100%">
-                        </dx:ASPxButton>--%>
+                        <%--<a class="btn btn-primary w-sm" onclick="ActionSubmitReport()">Submit</a>--%>
+                        <dx:ASPxButton ID="btn_Submit" runat="server" Theme="Metropolis" AutoPostBack="False" Text="Submit" ValidationGroup="SMLvalidationGroup"
+                            Height="35px" Width="100%">
+                        </dx:ASPxButton>
                     </div>
                 </div>
-                <br />
+
                 <div class="row">
                     <div class="col-md-12">
-                       <table class="table align-middle table-nowrap table-check" id="DataTableReportTransaction" style="overflow-x:scroll;">
+                        <%-- <table class="table align-middle table-nowrap table-check" id="DataTableReportTransaction" style="overflow-x:scroll;">
                                 <thead>
                                     <tr>
                                         <th>Interaction ID</th>
@@ -52,15 +52,16 @@
                                         <th>Priority Scale</th>
                                         <th>SLA</th>
                                         <th>Status</th>
-                                        <%--<th>Created Date</th>--%>
+                                        <th>Created Date</th>
                                         <th>Created By</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                 </tbody>
-                            </table>
-                        <dx:ASPxGridView ID="ASPxGridView1" ClientInstanceName="ASPxGridView1" runat="server" Font-Size="X-Small" Visible="false"
-                            DataSourceID="TempBaseTrx" Width="100%" Styles-Header-Font-Bold="true" Theme="MetropolisBlue">
+                            </table>--%>
+                        <dx:ASPxGridView ID="ASPxGridView1" ClientInstanceName="ASPxGridView1" runat="server" Font-Size="Small" Visible="true"
+                            DataSourceID="TempBaseTrx" Width="100%" Styles-Header-Font-Bold="true" Theme="MetropolisBlue"
+                            Styles-Cell-HorizontalAlign="Center" Styles-Header-HorizontalAlign="Center">
                             <SettingsPager>
                                 <AllButton Text="All">
                                 </AllButton>
@@ -74,24 +75,26 @@
                                 ShowVerticalScrollBar="false" ShowFooter="false" ShowHorizontalScrollBar="true" />
                             <Columns>
                                 <%--<dx:GridViewDataTextColumn Caption="No" FieldName="NoUrut" Width="40px" CellStyle-HorizontalAlign="Center"></dx:GridViewDataTextColumn>--%>
-                                <dx:GridViewDataTextColumn Caption="Interaction ID" FieldName="GenesysID" Width="200px"></dx:GridViewDataTextColumn>
-                                <dx:GridViewDataTextColumn Caption="Thread ID" FieldName="ThreadID" Width="200px"></dx:GridViewDataTextColumn>
+                                <%--<dx:GridViewDataTextColumn Caption="Interaction ID" FieldName="GenesysID" Width="200px"></dx:GridViewDataTextColumn>
+                                <dx:GridViewDataTextColumn Caption="Thread ID" FieldName="ThreadID" Width="200px"></dx:GridViewDataTextColumn>--%>
+                                <dx:GridViewDataTextColumn Caption="Channel" FieldName="TicketSourceName" Width="150px"></dx:GridViewDataTextColumn>
+                                <dx:GridViewDataTextColumn Caption="Tenant" FieldName="AgentGroupName" Width="200px"></dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Customer ID" FieldName="NIK" Width="200px"></dx:GridViewDataTextColumn>
-                                <dx:GridViewDataTextColumn Caption="Name" FieldName="CustomerName" Width="150px"></dx:GridViewDataTextColumn>
+                                <dx:GridViewDataTextColumn Caption="Customer Name" FieldName="CustomerName" Width="150px"></dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Ticket Number" FieldName="TicketNumber" Width="200px"></dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Account" FieldName="AccountInbound" Width="200px"></dx:GridViewDataTextColumn>
                                 <%--<dx:GridViewDataTextColumn Caption="Account ID" FieldName="AccountID" Width="200px"></dx:GridViewDataTextColumn>--%>
-
+                                <dx:GridViewDataTextColumn Caption="Main Category" FieldName="MainCategoryName" Width="200px"></dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Category" FieldName="CategoryName" Width="200px"></dx:GridViewDataTextColumn>
-                                <dx:GridViewDataTextColumn Caption="Enquiry Type" FieldName="Level1" Width="200px"></dx:GridViewDataTextColumn>
-                                <dx:GridViewDataTextColumn Caption="Enquiry Detail" FieldName="Level2" Width="300px"></dx:GridViewDataTextColumn>
-                                <dx:GridViewDataTextColumn Caption="Reason" FieldName="Level3" Width="300px"></dx:GridViewDataTextColumn>
+                                <dx:GridViewDataTextColumn Caption="Sub Category" FieldName="Level1" Width="200px"></dx:GridViewDataTextColumn>
+                                <dx:GridViewDataTextColumn Caption="Detail Sub Category" FieldName="Level2" Width="300px"></dx:GridViewDataTextColumn>
+                                <dx:GridViewDataTextColumn Caption="Detail Sub Category 2" FieldName="Level3" Width="300px"></dx:GridViewDataTextColumn>
                                 <%--<dx:GridViewDataTextColumn Caption="Description" FieldName="DescriptionNonHtml" PropertiesTextEdit-EncodeHtml="false" Width="650px"></dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Bank Product Type" FieldName="StrPenyebab" HeaderStyle-HorizontalAlign="left" Width="150px"></dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Product Name" FieldName="ProductName" HeaderStyle-HorizontalAlign="left" Width="150px"></dx:GridViewDataTextColumn>--%>
-                                <dx:GridViewDataTextColumn Caption="Priority Scale" FieldName="SkalaPrioritas" HeaderStyle-HorizontalAlign="left" Width="150px"></dx:GridViewDataTextColumn>
+                                <dx:GridViewDataTextColumn Caption="Priority Scale" FieldName="SkalaPrioritas" Width="150px"></dx:GridViewDataTextColumn>
                                 <%--<dx:GridViewDataTextColumn Caption="User Status" FieldName="JenisNasabah" HeaderStyle-HorizontalAlign="left" Width="150px"></dx:GridViewDataTextColumn>--%>
-                                <dx:GridViewDataTextColumn Caption="SLA" FieldName="SLA" HeaderStyle-HorizontalAlign="left" Width="150px"></dx:GridViewDataTextColumn>
+                                <dx:GridViewDataTextColumn Caption="SLA" FieldName="SLA" Width="150px"></dx:GridViewDataTextColumn>
 
                                 <%-- <dx:GridViewDataTextColumn Caption="Email Address" FieldName="Email" Width="150px"></dx:GridViewDataTextColumn>
                                 <dx:GridViewDataTextColumn Caption="Phone Number" FieldName="HP" Width="150px"></dx:GridViewDataTextColumn>
@@ -117,7 +120,7 @@
                 <br />
                 <div class="row" id="ActionExport">
                     <div class="col-md-2">
-                        <asp:DropDownList runat="server" ID="ddList" CssClass="form-control input-sm">
+                        <asp:DropDownList runat="server" ID="ddList" CssClass="form-control input-sm" Height="33px">
                             <asp:ListItem Value="xlsx" Text="Excel" />
                             <asp:ListItem Value="xls" Text="Excel 97-2003" />
                             <%--<asp:ListItem Value="pdf" Text="PDF" />
@@ -126,10 +129,10 @@
                         </asp:DropDownList>
                     </div>
                     <div class="col-md-2">
-                        <a class="btn btn-primary w-sm" onclick="ActionExport()" id="ExportReport" runat="server" onserverclick="ExportReport_ServerClick">Export</a>
-                        <%-- <dx:ASPxButton ID="btn_Export" runat="server" Text="Export" Theme="Metropolis" ValidationGroup="SMLvalidationGroup"
+                        <%--<a class="btn btn-primary w-sm" onclick="ActionExport()" id="ExportReport" runat="server" onserverclick="ExportReport_ServerClick">Export</a>--%>
+                        <dx:ASPxButton ID="btn_Export" runat="server" Text="Export" Theme="Metropolis" ValidationGroup="SMLvalidationGroup"
                             Height="33px" Width="100%">
-                        </dx:ASPxButton>--%>
+                        </dx:ASPxButton>
                     </div>
                 </div>
                 <dx:ASPxGridViewExporter ID="ASPxGridViewExporter1" runat="server"></dx:ASPxGridViewExporter>

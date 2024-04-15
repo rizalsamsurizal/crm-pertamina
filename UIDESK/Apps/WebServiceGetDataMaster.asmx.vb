@@ -5711,4 +5711,14 @@ Public Class WebServiceGetDataMaster
         Dim js As JavaScriptSerializer = New JavaScriptSerializer()
         Return js.Serialize(listTickets)
     End Function
+     Function RandomString(ByVal ValueLogin As String)
+        Dim s As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        Dim r As New Random
+        Dim sb As New StringBuilder
+        For i As Integer = 1 To 50
+            Dim idx As Integer = r.Next(0, 35)
+            sb.Append(s.Substring(idx, 1))
+        Next
+        Return sb.ToString()
+    End Function
 End Class

@@ -419,7 +419,7 @@ Public Class Crm_Trm_Category_Reason1
 
         Dim TrxAction As String = "SELECT"
         Dim NameSP = "Exec UIDESK_TrxCategoryReason"
-        Dim ExecSP = "" & NameSP & " '" & TrxID & "','0','0','0','" & TrxName & "','" & TrxEscalationUnit & "','" & TrxLayer & "','" & TrxSLA & "','" & TrxStatus & "','" & TrxUserName & "','" & TrxAction & "'"
+        Dim ExecSP = "" & NameSP & " '" & TrxID & "','0','0','0','0','0','" & TrxName & "','" & TrxEscalationUnit & "','" & TrxLayer & "','" & TrxSLA & "','" & TrxStatus & "','" & TrxUserName & "','" & TrxAction & "'"
         Try
             Using conn As SqlConnection = New SqlConnection(connstring)
                 conn.Open()

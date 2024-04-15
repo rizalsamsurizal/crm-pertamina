@@ -8,6 +8,7 @@
     <script src="js/sweetalert.min.js"></script>
     <asp:HiddenField ID="TrxID" runat="server" />
     <asp:HiddenField ID="TrxAgentId" runat="server" />
+    <asp:HiddenField ID="TenantID" runat="server" />
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
@@ -22,15 +23,44 @@
                         </div>
                         <div class="col-md-9">
                             <div class="d-flex flex-wrap align-items-start justify-content-md-end gap-2 mb-3">
+                                <div class="btn-group me-2 mb-2 mb-sm-0">
+                                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa fa-building"></i>&nbsp;Tenant <i class="mdi mdi-dots-vertical ms-2"></i>
+                                    </button>
+                                    <div id="divTenantDropdownHeader" class="dropdown-menu"></div>
+                                    <%-- <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">All</a>
+                                    <a class="dropdown-item" href="#">Mark as Important</a>
+                                    <a class="dropdown-item" href="#">Add to Tasks</a>
+                                    <a class="dropdown-item" href="#">Add Star</a>
+                                    <a class="dropdown-item" href="#">Mute</a>
+                                </div>--%>
+                                </div>
                                 <div class="search-box ">
                                     <div class="position-relative">
                                         <input type="text" class="form-control bg-light border-light rounded" id="TxtSearchingUserName" placeholder="Search...">
                                         <i class="uil uil-search search-icon"></i>
                                     </div>
-                                </div>
-
+                                </div>                               
                             </div>
                         </div>
+                        <%--<div class="mt-2" id="divTabTenant"></div>--%>
+                        <%--<div class="mt-2">
+                            <ul class="nav nav-tabs nav-tabs-custom mb-4" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-bs-toggle="tab" href="#list-all" role="tab">All User <span class="badge rounded-pill bg-info">70</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#list-ss" data-bs-toggle="tab">Shared Service <span class="badge rounded-pill bg-warning">0</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#list-pcc">PCC 135 Patra Niaga <span class="badge rounded-pill bg-success">40</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#list-135">PCC 135 Abdul Muis <span class="badge rounded-pill bg-danger">30</span></a>
+                                </li>
+                            </ul>
+                        </div>--%>
                     </div>
                     <div class="row" id="divUserNotification"></div>
                 </div>

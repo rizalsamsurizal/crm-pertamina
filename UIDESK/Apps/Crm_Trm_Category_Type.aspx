@@ -5,6 +5,8 @@
     <script src="js/Crm_Trm_Category_Type.js"></script>
     <script src="js/sweetalert.min.js"></script>
     <asp:HiddenField ID="TrxID" runat="server" />
+    <asp:HiddenField ID="Hd_CmbTenantID" runat="server" />
+    <asp:HiddenField ID="Hd_MainCategoryID" runat="server" />
     <asp:HiddenField ID="Hd_CmbCategory" runat="server" />
     <asp:HiddenField ID="Hd_Status" runat="server" />
     <div class="col-lg-12">
@@ -65,7 +67,7 @@
                                     <div class="mb-3">
                                         <label for="addcontact-designation-input" class="form-label">Category</label>
                                         <select class="form-select" id="cmbCategory" onchange="getWS_cmbCategory(1)">
-                                            <%--<option value="">Select</option>--%>
+                                            <option value="">Select</option>
                                         </select>
                                     </div>
                                     <div class="mb-3">

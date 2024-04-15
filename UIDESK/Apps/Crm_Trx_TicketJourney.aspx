@@ -80,12 +80,12 @@
                                                         <circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end">
-                                                    <li><a class="dropdown-item" href="#">Channel</a></li>
-                                                    <li><a class="dropdown-item" href="#">History Ticket</a></li>
-                                                    <li>
+                                                    <li><a class="dropdown-item" href="#" onclick="CustomerOtherChannel()">Channel</a></li>
+                                                    <li><a class="dropdown-item" href="#" onclick="CustomerHistoryTicket()">History Ticket</a></li>
+                                                 <%--   <li>
                                                         <hr class="dropdown-divider">
                                                     </li>
-                                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                                    <li><a class="dropdown-item" href="#">Separated link</a></li>--%>
                                                 </ul>
                                             </div>
                                         </div>

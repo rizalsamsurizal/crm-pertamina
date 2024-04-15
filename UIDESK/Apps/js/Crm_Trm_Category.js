@@ -206,7 +206,10 @@ function ActionUpdate() {
         .then((willDelete) => {
             if (willDelete) {
 
-                var form_data = JSON.stringify({ TrxID: $("#ContentPlaceHolder1_TrxID").val(), TrxUserName: $("#hd_sessionLogin").val(), TrxName: TrxName, TrxStatus: $("#cmbStatus").val() });
+                var form_data = JSON.stringify({
+                    TrxID: $("#ContentPlaceHolder1_TrxID").val(), TrxUserName: $("#hd_sessionLogin").val(),
+                    TenantID: $("#cmbTenant").val(), MainCategoryID: $("#CmbMainCategory").val(), TrxName: TrxName, TrxStatus: $("#cmbStatus").val()
+                });
                 $.ajax({
                     url: "asmx/Crm_Trm_Category.asmx/UpdateTransactionTrmCategory",
                     method: "POST",
@@ -269,6 +272,34 @@ function AutoValidasiSuccess(TrxCreatedby, Message) {
     //return false
 }
 function TrmSelected() {
+    var CmbMainCategory = $('#CmbMainCategory');
+    $.ajax({
+        type: "POST",
+        url: "asmx/Crm_Trm_Category.asmx/UIDESK_TrmMasterCombo",
+        data: "{TrxID:'" + $("#ContentPlaceHolder1_TrxID").val() + "', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK151-A'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i, x, resultMainCategory = "";
+          
+            CmbMainCategory.empty();
+            CmbMainCategory.append('<option value="">Select</option>');
+            for (i = 0; i < json.length; i++) {
+                
+                resultMainCategory = '<option value="' + json[i].ID + '">' + json[i].MainCategory + '</option>';
+                CmbMainCategory.append(resultMainCategory);
+
+            }
+
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+
     $.ajax({
         type: "POST",
         url: "asmx/Crm_Trm_Category.asmx/UIDESK_TrmMasterCombo",
@@ -334,7 +365,7 @@ function DropdwonMainCategory() {
     $.ajax({
         type: "POST",
         url: "asmx/Crm_Trm_Category.asmx/UIDESK_TrmMasterCombo",
-        data: "{TrxID:'0', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK152'}",
+        data: "{TrxID:'0', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK151'}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {

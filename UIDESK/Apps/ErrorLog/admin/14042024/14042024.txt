@@ -1,0 +1,2967 @@
+Time: 14/04/2024 10:45:05:787 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:06:214 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:31:872 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:32:343 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:32:877 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:33:369 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:39:705 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','3','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:42:583 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:47:845 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:48:305 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:48:880 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:49:322 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:48:25:619 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:48:26:175 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:48:26:628 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:48:27:190 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:48:31:093 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','6','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:48:37:186 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:48:37:700 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:48:39:024 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:48:39:232 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:49:13:775 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:49:19:755 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:49:20:261 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:49:20:814 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:49:21:281 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:49:22:927 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:49:46:593 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:49:47:114 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:49:47:602 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:49:50:453 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:50:40:371 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:50:40:877 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:50:41:424 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:50:41:887 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:50:44:159 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:51:02:776 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:51:03:126 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:51:03:634 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:51:04:241 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:51:06:230 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:51:32:745 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:51:33:107 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:51:33:614 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:51:35:010 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:51:36:465 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:04:750 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:07:288 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:08:103 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:08:302 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:08:470 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:08:807 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:08:987 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:09:500 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:13:551 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:42:415 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:42:925 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:43:423 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:43:443 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:56:54:269 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:59:04:643 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:59:05:145 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:59:05:937 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:59:06:155 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:59:40:926 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:59:41:982 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:59:42:505 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:59:42:992 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:59:52:296 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:37:162 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:37:702 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:38:175 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:39:003 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:39:208 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:39:522 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:40:034 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:40:547 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:43:420 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:43:933 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:44:437 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:02:44:942 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:03:34:442 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:19:553 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:20:028 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:20:536 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:21:062 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','null','FILTER'
+Message: Conversion failed when converting the varchar value 'null' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UIDESK.Crm_Trx_User_Tenant1.PTM_SP_UserTenant(String ID, String UserName, String UserID, String TenantID, String Action) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\Apps\asmx\Crm_Trx_User_Tenant.asmx.vb:line 238
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/04/2024 11:05:21:097 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','null','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:27:347 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:27:782 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:28:283 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:29:290 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','6','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:34:188 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:34:795 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:35:159 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:35:632 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:38:543 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:38:979 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:39:528 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:05:39:992 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','1','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:06:37:051 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:06:37:495 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:06:38:003 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:06:38:640 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','1','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:06:43:314 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:06:43:755 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:06:44:333 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:06:44:774 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','1','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:39:510 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:40:023 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:40:524 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:42:319 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:42:553 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','1','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:42:839 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:43:345 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:43:846 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','null','FILTER'
+Message: Conversion failed when converting the varchar value 'null' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UIDESK.Crm_Trx_User_Tenant1.PTM_SP_UserTenant(String ID, String UserName, String UserID, String TenantID, String Action) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\Apps\asmx\Crm_Trx_User_Tenant.asmx.vb:line 238
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/04/2024 11:07:43:848 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','null','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:53:682 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:54:189 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:54:694 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:55:229 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:57:901 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:58:410 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:58:933 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:07:59:444 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:08:05:302 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:08:05:727 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:08:06:248 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:08:06:756 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:03:846 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:04:353 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:04:880 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:05:474 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:10:773 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:11:282 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:11:782 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:12:290 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:18:529 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:19:044 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:19:550 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:20:059 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:41:402 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:41:927 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:42:550 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:44:679 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:44:949 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:45:181 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:45:700 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:46:200 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','null','FILTER'
+Message: Conversion failed when converting the varchar value 'null' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UIDESK.Crm_Trx_User_Tenant1.PTM_SP_UserTenant(String ID, String UserName, String UserID, String TenantID, String Action) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\Apps\asmx\Crm_Trx_User_Tenant.asmx.vb:line 238
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/04/2024 11:09:46:201 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','null','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:51:582 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:52:085 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:52:590 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:53:096 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','null','FILTER'
+Message: Conversion failed when converting the varchar value 'null' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UIDESK.Crm_Trx_User_Tenant1.PTM_SP_UserTenant(String ID, String UserName, String UserID, String TenantID, String Action) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\Apps\asmx\Crm_Trx_User_Tenant.asmx.vb:line 238
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/04/2024 11:09:53:097 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','null','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:58:735 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:59:073 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:09:59:576 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:00:088 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:04:221 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:04:680 AM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '0','admin','0','4','FILTER'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:05:176 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:05:687 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:32:994 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:33:505 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:34:013 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:34:527 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','4','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:39:430 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:39:944 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:40:450 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:40:958 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','4','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:48:564 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:48:709 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:49:211 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','6','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:49:726 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:59:277 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:10:59:784 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:00:290 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:00:881 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','6','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:07:930 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:08:410 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:08:925 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:09:423 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','6','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:14:463 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:14:600 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:15:117 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:15:708 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','4','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:22:257 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:22:714 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:23:237 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:23:743 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:28:584 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:29:084 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:29:677 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:30:232 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','4','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:44:949 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxGroupAgent '-','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:11:58:287 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxGroupAgent '-','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:13:59:717 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxGroupAgent '-','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:14:10:906 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxGroupAgent '3','admin','0','0','SELECT'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:14:15:083 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxGroupAgent '3','admin','Shared Service','N','UPDATE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:14:19:512 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxGroupAgent '-','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:14:29:675 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxGroupAgent '-','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:15:27:916 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:15:27:935 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:15:37:844 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:15:38:360 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:15:38:876 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:15:39:656 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','null','TABLE'
+Message: Conversion failed when converting the varchar value 'null' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.Crm_Trx_User_Tenant1.PTM_SP_UserTenant(String ID, String UserName, String UserID, String TenantID, String Action) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\Apps\asmx\Crm_Trx_User_Tenant.asmx.vb:line 211
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/04/2024 11:15:39:661 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','null','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:03:050 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:03:436 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:03:940 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:04:466 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:39:095 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:39:503 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:40:021 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:40:650 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:48:664 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:49:221 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:49:692 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:50:234 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','6','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:56:912 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:57:197 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:57:974 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:16:58:208 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:17:07:786 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:17:08:375 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:17:08:805 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:17:21:079 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:17:21:395 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:17:21:439 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:17:28:937 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxDepartment 'admin','0','0','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:17:29:956 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:17:32:691 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1054','admin','UIDESK09'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:20:58:179 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK150'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:23:01:614 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:23:01:678 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:23:02:130 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:23:02:644 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:23:47:220 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:23:47:233 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:23:47:728 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:23:48:228 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:24:10:250 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:24:10:753 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:24:11:274 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:24:11:971 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:09:176 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:09:808 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:10:181 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:10:214 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:17:024 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:17:242 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:17:534 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','4','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:18:095 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:22:399 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:22:482 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:22:901 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:23:413 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','6','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:31:323 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:31:533 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:31:830 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:30:32:343 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','4','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:31:20:790 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:31:21:276 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:31:21:298 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:31:21:904 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','4','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:31:45:993 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:31:46:129 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','4','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:31:46:657 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:31:47:184 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:32:02:206 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:32:02:525 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:32:02:718 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:32:03:284 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:34:39:994 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:34:40:498 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:34:41:058 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.Crm_Trx_User_Tenant1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\Apps\asmx\Crm_Trx_User_Tenant.asmx.vb:line 179
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/04/2024 11:34:41:060 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:34:41:521 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:34:45:640 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:34:46:154 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:34:46:656 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.Crm_Trx_User_Tenant1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\Apps\asmx\Crm_Trx_User_Tenant.asmx.vb:line 179
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/04/2024 11:34:46:657 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:34:47:186 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:35:01:052 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:35:01:179 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:35:01:717 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:35:02:395 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:35:10:050 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:35:10:061 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:35:10:583 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:35:11:090 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','4','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:46:500 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:46:570 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:47:008 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:47:510 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','4','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:50:127 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:50:532 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:51:038 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:51:541 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:58:008 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:58:080 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:58:549 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:39:59:044 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:40:03:683 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:40:04:388 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:40:04:701 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','6','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:40:04:785 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:40:16:755 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:40:17:265 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:40:17:774 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:40:18:287 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','4','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:03:401 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:03:846 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:04:417 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:04:973 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:21:519 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:21:971 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','4','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:22:548 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:23:030 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:26:181 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '4','admin','4','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:27:476 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '4','admin','4','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:31:959 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '4','admin','4','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:32:742 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '4','admin','4','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:32:897 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '4','admin','4','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:33:075 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '4','admin','4','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:34:151 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '4','admin','4','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:34:731 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '4','admin','4','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:34:990 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '4','admin','4','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:35:775 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '4','admin','4','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:41:040 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:41:501 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:42:071 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:42:524 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','4','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:48:413 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:48:934 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:49:418 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:49:933 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:56:011 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:42:57:631 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:27:037 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:27:552 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:28:059 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:28:730 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:30:731 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:31:927 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:32:285 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:32:902 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:36:517 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:36:734 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:36:930 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:37:478 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:39:110 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:39:518 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:39:696 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:57:453 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:57:858 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:58:380 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:43:58:957 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:00:242 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:00:372 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:00:593 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:01:409 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:01:579 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:01:735 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:02:219 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:06:263 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:06:619 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:07:131 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:07:646 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:09:472 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:09:810 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:09:937 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:10:153 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:11:964 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:12:168 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:12:316 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:12:822 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:13:902 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:14:206 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:14:305 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:15:929 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:32:503 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:33:018 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:33:521 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:34:036 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:35:977 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant 'SIL','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:44:37:770 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '[object Object]','admin','0','SEARCH'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:45:01:918 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:45:02:384 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:45:03:047 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:45:03:392 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:45:14:677 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:45:14:760 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:45:15:195 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:45:15:713 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','4','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:46:19:433 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:46:19:913 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','4','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:46:20:656 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:46:20:892 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:46:29:254 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:46:29:811 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:46:30:280 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:46:30:906 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:51:54:439 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:51:54:466 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:51:54:945 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:51:55:443 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','4','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:52:01:004 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:52:01:080 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:52:01:678 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:52:02:039 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:21:364 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:21:702 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:22:278 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:22:785 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:31:879 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:32:316 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:32:832 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:33:384 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:57:696 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:58:155 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:58:670 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:54:59:185 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:31:195 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:31:655 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:32:223 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:32:661 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:39:269 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:39:711 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:40:381 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:40:735 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:47:506 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:47:822 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:48:334 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','4','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:55:48:886 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:11:25:753 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:11:25:862 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:11:26:257 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:11:26:770 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:17:490 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:18:007 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:24:801 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:24:821 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:25:319 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:25:834 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:33:443 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:33:701 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:33:719 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:34:281 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','4','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:41:259 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:41:773 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','6','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:42:305 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:42:822 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:48:676 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:49:181 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:49:206 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:49:696 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:13:01:157 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK150'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:13:58:069 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:13:58:110 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:13:58:639 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:13:59:084 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:14:31:198 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:14:31:612 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:14:32:652 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:14:33:543 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:14:39:143 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:14:39:173 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:14:39:647 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:14:40:168 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:16:47:138 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:16:47:161 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:16:47:673 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:16:48:185 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:17:40:609 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:17:40:759 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:17:41:204 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:17:41:242 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:18:23:262 PM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '40','admin','0','0','DELETE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:18:27:487 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:18:27:594 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:18:28:098 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:18:28:628 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:18:31:798 PM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_SP_UserTenant '39','admin','0','0','DELETE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:18:33:935 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:18:34:442 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:18:34:953 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:18:35:473 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:23:51:247 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK160'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:23:52:273 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK147'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:23:52:713 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:23:53:221 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_UserTenant '0','admin','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:27:04:613 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec PTM_SP_CaseOwner '0','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:27:04:637 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK148'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:27:05:128 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:27:05:640 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK161'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:27:44:692 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_Xtra_Reporting 'admin','2024-04-01','2024-04-14','0','0'
+Message: Column name or number of supplied values does not match table definition.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.Xtra_Report.UIDESK_Xtra_Reporting(String UserName, String XStartDate, String XEndDate, String XReportType, String Xtype) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\Apps\asmx\Xtra_Report.asmx.vb:line 172
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/04/2024 12:27:44:705 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Xtra_Reporting 'admin','2024-04-01','2024-04-14','0','0'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:03:44:790 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:03:44:855 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:10:28:332 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:10:28:835 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:35:55:122 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:35:55:625 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:06:54:789 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:06:55:285 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:02:032 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:02:694 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:02:995 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:05:300 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:14:264 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '388267','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:14:265 PM
+---------------------------Success-------------------------------------------------------
+Message: 388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267388267
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:14:842 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:19:082 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '385222','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:19:083 PM
+---------------------------Success-------------------------------------------------------
+Message: 385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222385222
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:19:728 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:27:010 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '384041','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:27:011 PM
+---------------------------Success-------------------------------------------------------
+Message: 384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041384041
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:27:609 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:32:590 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '383956','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:32:592 PM
+---------------------------Success-------------------------------------------------------
+Message: 383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956383956
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:33:576 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:37:430 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:37:602 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:07:37:943 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:08:29:701 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:08:30:035 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:08:30:238 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:25:41:704 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:25:42:227 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:26:04:227 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0002','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:26:04:723 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:26:10:693 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '5863','admin','UIDESK37'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:26:15:767 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSubMenuApplication '5863','0','Report Transaction','4_Reports_base_trx_new.aspx?idpage=1013','N','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:26:16:953 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0002','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:26:19:782 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0002','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:26:20:215 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:28:56:605 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:28:57:132 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:30:46:542 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:30:47:062 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:31:19:475 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:31:19:849 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0002','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:31:25:913 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '5863','admin','UIDESK37'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:31:30:144 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSubMenuApplication '5863','0','Report Transaction','Xtra_ReportTransactionTicket.aspx?idpage=1013','N','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:31:30:748 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0002','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:34:36:622 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:34:37:125 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:36:55:044 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:36:55:530 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:36:56:039 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:36:57:217 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:07:160 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '386231','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:07:161 PM
+---------------------------Success-------------------------------------------------------
+Message: 386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231386231
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:07:758 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:19:495 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '387231','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:19:496 PM
+---------------------------Success-------------------------------------------------------
+Message: 387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231387231
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:20:103 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:29:304 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '387265','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:29:305 PM
+---------------------------Success-------------------------------------------------------
+Message: 387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265387265
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:30:010 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:39:185 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '385135','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:39:186 PM
+---------------------------Success-------------------------------------------------------
+Message: 385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135385135
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:39:853 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:49:147 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '389295','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:49:148 PM
+---------------------------Success-------------------------------------------------------
+Message: 389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295389295
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:49:852 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:56:383 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:56:464 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:37:56:890 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:39:18:209 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:39:18:343 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:53:27:193 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:53:27:485 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+

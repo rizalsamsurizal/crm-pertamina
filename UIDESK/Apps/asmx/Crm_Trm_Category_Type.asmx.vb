@@ -332,8 +332,7 @@ Public Class Crm_Trm_Category_Type1
     End Function
     <WebMethod(EnableSession:=True)>
     <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
-    Public Function UpdateTransactionTrmCategoryType(ByVal TrxID As String, ByVal TrxCategoryID As String, ByVal TrxName As String,
-                                                    ByVal TrxStatus As String, ByVal TrxUserName As String) As String
+    Public Function UpdateTransactionTrmCategoryType(ByVal TrxID As String, ByVal TenantID As String, ByVal MainCategoryID As String, ByVal TrxCategoryID As String, ByVal TrxName As String,ByVal TrxStatus As String, ByVal TrxUserName As String) As String
         Dim AntiXSS As String = AntiXssEncoder.HtmlEncode(TrxName.Trim, True)
         Dim listTickets As List(Of resultInsert) = New List(Of resultInsert)()
         Dim strExec As String = String.Empty
@@ -349,6 +348,8 @@ Public Class Crm_Trm_Category_Type1
                 sqlComm.CommandText = "UIDESK_TrxCategoryType"
                 sqlComm.CommandType = CommandType.StoredProcedure
                 sqlComm.Parameters.AddWithValue("TrxID", TrxID)
+                sqlComm.Parameters.AddWithValue("TenantID", TenantID)
+                sqlComm.Parameters.AddWithValue("MainCategoryID", MainCategoryID)
                 sqlComm.Parameters.AddWithValue("TrxCategoryID", TrxCategoryID)
                 sqlComm.Parameters.AddWithValue("TrxName", AntiXSS)
                 sqlComm.Parameters.AddWithValue("TrxStatus", TrxStatus)
@@ -368,7 +369,7 @@ Public Class Crm_Trm_Category_Type1
             objectTickets.Result = "False"
             objectTickets.TrxmsgSystem = ex.Message()
             listTickets.Add(objectTickets)
-            strExec = "exec UIDESK_TrxCategoryType    '" & TrxID & "','" & TrxCategoryID & "','" & AntiXSS & "','" & TrxStatus & "','" & UserNameXSS & "','" & TrxAction & "'"
+            strExec = "exec UIDESK_TrxCategoryType    '" & TrxID & "','" & TenantID & "','" & MainCategoryID & "','" & TrxCategoryID & "','" & AntiXSS & "','" & TrxStatus & "','" & UserNameXSS & "','" & TrxAction & "'"
             LogError(HttpContext.Current.Session("UserName"), ex, strExec)
         Finally
             Dim objectTickets As resultInsert = New resultInsert()
@@ -377,14 +378,14 @@ Public Class Crm_Trm_Category_Type1
                 objectTickets.TrxID = _Valuenya
                 objectTickets.TrxmsgSystem = "Data Category Type Has Been Save"
                 listTickets.Add(objectTickets)
-                strExec = "exec UIDESK_TrxCategoryType    '" & TrxID & "','" & TrxCategoryID & "','" & AntiXSS & "','" & TrxStatus & "','" & UserNameXSS & "','" & TrxAction & "'"
+                strExec = "exec UIDESK_TrxCategoryType    '" & TrxID & "','" & TenantID & "','" & MainCategoryID & "','" & TrxCategoryID & "','" & AntiXSS & "','" & TrxStatus & "','" & UserNameXSS & "','" & TrxAction & "'"
                 LogSuccess(HttpContext.Current.Session("UserName"), strExec)
             Else
                 objectTickets.Result = "False"
                 objectTickets.TrxID = _Valuenya
                 objectTickets.TrxmsgSystem = _Valuenya
                 listTickets.Add(objectTickets)
-                strExec = "exec UIDESK_TrxCategoryType '" & TrxID & "','" & TrxCategoryID & "','" & AntiXSS & "','" & TrxStatus & "','" & UserNameXSS & "','" & TrxAction & "'"
+                strExec = "exec UIDESK_TrxCategoryType    '" & TrxID & "','" & TenantID & "','" & MainCategoryID & "','" & TrxCategoryID & "','" & AntiXSS & "','" & TrxStatus & "','" & UserNameXSS & "','" & TrxAction & "'"
                 LogSuccess(HttpContext.Current.Session("UserName"), strExec)
                 LogSuccess(HttpContext.Current.Session("UserName"), _Valuenya)
             End If

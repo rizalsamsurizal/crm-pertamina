@@ -5,6 +5,8 @@
     <script src="js/Crm_Trm_Category_Reason.js"></script>
     <script src="js/sweetalert.min.js"></script>
     <asp:HiddenField ID="TrxID" runat="server" />
+    <asp:HiddenField ID="Hd_CmbTenantID" runat="server" />
+    <asp:HiddenField ID="Hd_MainCategoryID" runat="server" />
     <asp:HiddenField ID="Hd_CmbCategory" runat="server" />
     <asp:HiddenField ID="Hd_CmbCategoryType" runat="server" />
     <asp:HiddenField ID="Hd_CmbCategoryDetail" runat="server" />
@@ -116,6 +118,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="mb-3">
+                                             <label for="addcontact-designation-input" class="form-label">Detail Sub Category 2</label>
                                             <textarea class="form-control" placeholder="Detail Sub Category 2" id="TxtCategoryReasonName" name="TxtCategoryReasonName" rows="8"></textarea>
                                         </div>
                                     </div>

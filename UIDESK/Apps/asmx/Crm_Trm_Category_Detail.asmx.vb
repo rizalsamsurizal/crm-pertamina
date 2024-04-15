@@ -363,7 +363,7 @@ Public Class Crm_Trm_Category_Detail1
             objectTickets.Result = "False"
             objectTickets.TrxmsgSystem = ex.Message()
             listTickets.Add(objectTickets)
-            strExec = "exec UIDESK_TrmCategoryDetail '" & TrxID & "','" & TrxCategoryID & "','" & AntiXssEncoder.HtmlEncode(TrxName.Trim, True) & "','" & TrxStatus & "','" & UserNameXSS & "'"
+            strExec = "exec UIDESK_TrmCategoryDetail '" & TrxID & "','" & TenantID & "','" & MainCategoryID & "','" & TrxCategoryID & "','" & AntiXssEncoder.HtmlEncode(TrxName.Trim, True) & "','" & TrxStatus & "','" & UserNameXSS & "'"
             LogError(HttpContext.Current.Session("UserName"), ex, strExec)
         Finally
             Dim objectTickets As resultInsert = New resultInsert()
@@ -372,14 +372,14 @@ Public Class Crm_Trm_Category_Detail1
                 objectTickets.TrxID = _Valuenya
                 objectTickets.TrxmsgSystem = "Data Category Detail Has Been Save"
                 listTickets.Add(objectTickets)
-                strExec = "exec UIDESK_TrmCategoryDetail '" & TrxID & "','" & TrxCategoryID & "','" & AntiXssEncoder.HtmlEncode(TrxName.Trim, True) & "','" & TrxStatus & "','" & UserNameXSS & "'"
+            strExec = "exec UIDESK_TrmCategoryDetail '" & TrxID & "','" & TenantID & "','" & MainCategoryID & "','" & TrxCategoryID & "','" & AntiXssEncoder.HtmlEncode(TrxName.Trim, True) & "','" & TrxStatus & "','" & UserNameXSS & "'"
                 LogSuccess(HttpContext.Current.Session("UserName"), strExec)
             Else
                 objectTickets.Result = "False"
                 objectTickets.TrxID = _Valuenya
                 objectTickets.TrxmsgSystem = _Valuenya
                 listTickets.Add(objectTickets)
-                strExec = "exec UIDESK_TrmCategoryDetail '" & TrxID & "','" & TrxCategoryID & "','" & AntiXssEncoder.HtmlEncode(TrxName.Trim, True) & "','" & TrxStatus & "','" & UserNameXSS & "'"
+            strExec = "exec UIDESK_TrmCategoryDetail '" & TrxID & "','" & TenantID & "','" & MainCategoryID & "','" & TrxCategoryID & "','" & AntiXssEncoder.HtmlEncode(TrxName.Trim, True) & "','" & TrxStatus & "','" & UserNameXSS & "'"
                 LogSuccess(HttpContext.Current.Session("UserName"), strExec)
                 LogSuccess(HttpContext.Current.Session("UserName"), _Valuenya)
             End If

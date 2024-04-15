@@ -8,7 +8,7 @@
 <head>
         
         <meta charset="utf-8" />
-        <title>Settings | Dashonic - Admin & Dashboard Template</title>
+        <title>Pertamina | CRM System</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Pichforest" name="author" />
@@ -62,7 +62,7 @@
                                                         <div class="row">
                                                             <div class="col-lg-6">
                                                                 <div class="mb-3">
-                                                                    <label class="form-label" for="gen-info-name-input">Name</label>
+                                                                    <label class="form-label" for="gen-info-name-input">Nama</label>
                                                                     <input type="text" class="form-control" id="Name" placeholder="Enter Name">
                                                                 </div>
                                                                 
@@ -82,7 +82,7 @@
                                                             </div>
                                                             <div class="col-lg-6">
                                                                 <div class="mb-3">
-                                                                    <label class="form-label" for="gen-info-name-input">Hp</label>
+                                                                    <label class="form-label" for="gen-info-name-input">Nomor Handphone</label>
                                                                     <input type="text" class="form-control" id="Hp" placeholder="Enter No Hp">
                                                                 </div>
                                                                 

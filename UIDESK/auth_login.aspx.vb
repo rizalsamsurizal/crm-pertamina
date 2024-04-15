@@ -2,6 +2,20 @@
 Imports System.Web.UI
 Imports System.Data.SqlClient
 Imports Microsoft.VisualBasic
+Imports System.Net.WebRequest
+Imports System.Text.Encoding
+Imports System.IO
+Imports System.Net.ServicePointManager
+Imports System.Net.Security
+Imports System.Security.Cryptography.X509Certificates
+Imports System.Net.SecurityProtocolType
+Imports System.Net.FileWebRequest
+Imports System.Runtime.Serialization
+Imports System.Net
+Imports System.Text
+Imports Newtonsoft.Json
+Imports Newtonsoft.Json.Linq
+Imports System.Web.Script.Serialization
 Public Class auth_login
     Inherits System.Web.UI.Page
 
@@ -33,11 +47,38 @@ Public Class auth_login
     Dim recLDAP As Integer
     Dim recCount As Integer
     Dim _ClassFunction As New WebServiceTransaction
+
     Dim strLogTime As String = DateTime.Now.ToString("yyyy")
     'Dim _ClassAux As New TrmAux
     Dim VariabelCookiesUsername As New HttpCookie("CookiesUserName")
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
+        'Dim strcounting As String = String.Empty
+        'Dim username As String = Request.QueryString("username")
+        'If username = "" Then
+        '    Response.Redirect("auth_login.aspx")
+        'Else
+        '    Try
+        '        Using conn As New SqlConnection(connString)
+        '            conn.Open()
+        '            strcounting = "select count (userid) as userid from msuser where username=@uservalue"
+        '            Dim cmd As SqlCommand = New SqlCommand(strcounting, conn)
+        '            Dim uservalue As SqlParameter = New SqlParameter("@uservalue", SqlDbType.VarChar, 150)
+        '            uservalue.Value = username
+        '            cmd.Parameters.Add(uservalue)
+        '            recLDAP = cmd.ExecuteScalar()
+        '            If recLDAP = 1 Then
+        '                '_classfunction.logsuccess(strlogtime, strcounting)
+        '                LoginTTF(username)
+        '            Else
+        '                '_classfunction.logsuccess(strlogtime, strcounting)
+        '                Response.Redirect("auth_login.aspx")
+        '            End If
+        '        End Using
+        '    Catch ex As Exception
+        '        '_classfunction.logerror(strlogtime, ex, strcounting)
+        '        Response.Write(ex.Message)
+        '    End Try
+        'End If
     End Sub
     Private Sub Login_ButtonSubmit_ServerClick(sender As Object, e As EventArgs) Handles Login_ButtonSubmit.ServerClick
         Dim strRecCount As String = "Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'"
@@ -178,6 +219,16 @@ Public Class auth_login
             Response.Write(ex.Message)
         End Try
 
+        Dim UpdateLogin As String = String.Empty
+        Try
+            UpdateLogin = "UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='" & RandomString(UserName) & "' WHERE USERNAME ='" & UserName & "'"
+            Proses.ExecuteNonQuery(UpdateLogin)
+            _ClassFunction.LogSuccess(strLogTime, UpdateLogin)
+        Catch ex As Exception
+            _ClassFunction.LogError(strLogTime, ex, UpdateLogin)
+            Response.Write(ex.Message)
+        End Try
+
         Dim strAux As String = "SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='" & Session("username") & "' ORDER BY ID DESC"
         Try
             sqldr = Proses.ExecuteReader(strAux)
@@ -241,5 +292,108 @@ Public Class auth_login
             Return False
         End Try
         Return True
+    End Function
+    Function LoginTTF(ByVal UserName As String)
+        Dim Login_True As String = String.Empty
+        sql = "exec PTM_TTF_LoginAplikasi  '" & UserName & "'"
+        Try
+            sqldr = Proses.ExecuteReader(sql)
+            If sqldr.HasRows Then
+                sqldr.Read()
+                leveluser = sqldr("LAYER").ToString
+                Session("UserName") = sqldr("UserName").ToString
+                Session("lblUserName") = sqldr("UserName").ToString
+                Session("UnitKerja") = sqldr("UNITKERJA").ToString
+                Session("Org") = sqldr("ORGANIZATION_NAME").ToString
+                Session("NameKaryawan") = sqldr("NAME").ToString
+                Session("LoginType") = sqldr("LAYER").ToString
+                Session("lvluser") = sqldr("LevelUser").ToString
+                Session("channel_code") = sqldr("CHANNEL_CODE").ToString
+                Session("organization") = sqldr("ORGANIZATION").ToString
+                Session("orgSupervisor") = sqldr("ORGANIZATION").ToString
+                Session("lokasiPengaduan") = ""
+                Session("sessionchat") = sqldr("CHAT").ToString
+                Session("unitkerjaagent") = sqldr("IdGrup").ToString
+                Session("ROLE") = sqldr("LEVELUSER").ToString
+                Session("LEVELUSERID") = sqldr("ROLE_ID").ToString
+                Session("LoginTypeAngka") = sqldr("NumberNya").ToString
+                Session("_LoginState") = sqldr("LoginState").ToString
+                Session("NamaGrup") = sqldr("NamaGrup").ToString
+                Session("EscalationIdentity") = sqldr("EscalationIdentity").ToString
+                Session("EscalationTo") = sqldr("EscalationTo").ToString
+                Session("LevelUserID") = sqldr("LevelUserID").ToString
+                Session("EmailAddress") = sqldr("EMAIL_ADDRESS").ToString
+                Session("Ext") = sqldr("PBXUSER").ToString
+                Session("MultiChatToken") = sqldr("TokenMeta").ToString
+
+                VariabelCookiesUsername.Values("CookiesUserName") = sqldr("UserName").ToString
+                VariabelCookiesUsername.Expires = DateTime.Now.AddDays(AddCookiess)
+                Response.Cookies.Add(VariabelCookiesUsername)
+                Login_True = "YesExist"
+                'Response.Redirect("apps/Crm_Trx_Ticket.aspx?val=" & Request.QueryString("val") & "&tenantid=" & Request.QueryString("tenantid") & "")
+            End If
+            sqldr.Close()
+            _ClassFunction.LogSuccess(strLogTime, sql)
+        Catch ex As Exception
+            _ClassFunction.LogError(strLogTime, ex, sql)
+            Response.Write(ex.Message)
+        End Try
+
+        Dim UpdateLogin As String = String.Empty
+        Try
+            UpdateLogin = "UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='" & RandomString(UserName) & "' WHERE USERNAME ='" & UserName & "'"
+            Proses.ExecuteNonQuery(UpdateLogin)
+            _ClassFunction.LogSuccess(strLogTime, UpdateLogin)
+        Catch ex As Exception
+            _ClassFunction.LogError(strLogTime, ex, UpdateLogin)
+            Response.Write(ex.Message)
+        End Try
+
+        If Login_True = "YesExist" Then
+            Response.Redirect("apps/Crm_Trx_Ticket.aspx?val=" & Request.QueryString("val") & "&tenantid=" & Request.QueryString("tenantid") & "")
+        Else
+            'Login_NotifErr.Visible = True
+            'ErrorLabel.Visible = True
+            'ErrorLabel.Text = "Your username or password is incorrect, Try again"
+            Response.Redirect("auth_login.aspx")
+        End If
+        'Dim strAux As String = "SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='" & Session("username") & "' ORDER BY ID DESC"
+        'Try
+        '    sqldr = Proses.ExecuteReader(strAux)
+        '    If sqldr.HasRows Then
+        '        sqldr.Read()
+        '        If sqldr("AuxID").ToString <> "9" Then
+        '            _ClassAux.InsertAgentAux("9", Session("UserName"))
+        '            _ClassAux.InsertLoginActivity("9", Session("UserName"), "Insert")
+        '        Else
+        '            _ClassAux.InsertLoginActivity("9", Session("UserName"), "Insert")
+        '        End If
+        '    Else
+        '        _ClassAux.InsertLoginActivity("9", Session("UserName"), "Insert")
+        '    End If
+        '    sqldr.Close()
+        '    _ClassFunction.LogSuccess(strLogTime, strAux)
+        'Catch ex As Exception
+        '    _ClassFunction.LogError(strLogTime, ex, strAux)
+        '    Response.Write(ex.Message)
+        'End Try
+
+        'If Login_True = "YesExist" Then
+        '    Response.Redirect("apps/Crm_Trx_Ticket.aspx?val=" & Request.QueryString("val") & "&tenantid=" & Request.QueryString("tenantid") & "")
+        'Else
+        '    Login_NotifErr.Visible = True
+        '    ErrorLabel.Visible = True
+        '    ErrorLabel.Text = "Your username or password is incorrect, Try again"
+        'End If
+    End Function
+     Function RandomString(ByVal ValueLogin As String)
+        Dim s As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        Dim r As New Random
+        Dim sb As New StringBuilder
+        For i As Integer = 1 To 50
+            Dim idx As Integer = r.Next(0, 35)
+            sb.Append(s.Substring(idx, 1))
+        Next
+        Return sb.ToString()
     End Function
 End Class

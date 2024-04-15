@@ -1,7 +1,7 @@
 ﻿$(document).ready(function () {
 
     var myParam = getParameterByName('type', window.location.search);
-    if (myParam == "ss") {
+    if (myParam == "ss" || myParam == "pcc" || myParam == "135") {
         var Hp = getParameterByName('val', window.location.search);
         GetCustomerbyNotelp(Hp);
 
@@ -21,7 +21,7 @@ function GetCustomerbyNotelp(NoTelpn) {
             var json = JSON.parse(data.d);
             for (var i = 0; i < json.length; ++i) {
                 $('#Name').val(json[i].Name);
-                $('#Alamat').val(json[i].Alamat);
+                $('#Alamat').val(json[i].AlamatHTML);
                 $('#Email').val(json[i].Email);
                 $('#Hp').val(json[i].HP);
                 //$('#results').append('<div class="name">' + json[i].name + '</>');

@@ -1,0 +1,248 @@
+Time: 15/04/2024 01:56:40:259 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 01:56:40:276 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 01:56:40:980 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Agent1', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 01:56:40:994 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='NH412NICMYCQDUPL6QMANPGKV8R0UF7N1C06RZVLDKJZ78V86B' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 01:56:41:012 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 01:56:56:439 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_TTF_LoginAplikasi  'Agent1'
+Message: PBXUSER
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.LoginTTF(String UserName) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\auth_login.aspx.vb:line 323
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 15/04/2024 01:56:56:583 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='L5NUC1JG6IGAU4HNHNN5ACQ0JVVUKDEOECVMG40NXAYUT8RC01' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:00:40:108 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_TTF_LoginAplikasi  'Agent1'
+Message: PBXUSER
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.LoginTTF(String UserName) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\auth_login.aspx.vb:line 323
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 15/04/2024 02:00:40:210 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='L7NLMH1LDL013WH4K2TNBTSWHD2RA0UTXDCESEHIN63CJ8BD7B' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:09:54:325 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:09:54:397 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:09:54:713 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Agent1', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:09:54:729 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='W3E64XSSVM53COVOWWCCN0NMF3BJRIJVWRB3MGISI1E7VYHT3R' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:09:54:737 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:10:21:507 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_TTF_LoginAplikasi  'Agent1'
+Message: PBXUSER
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.LoginTTF(String UserName) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\auth_login.aspx.vb:line 323
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 15/04/2024 02:10:21:589 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='58N0DV2YYLDMARJCKC425Z0A54CHLTWCNYH2BS3PY2SE3PHUHI' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:11:30:762 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:11:30:806 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:11:30:934 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Agent1', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:11:30:946 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='MAM76NWUN3VVILRT0ZZF6TYYCV5ZGL2DH0KZQW0NOP6NGEV50U' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:11:30:957 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:11:40:994 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_TTF_LoginAplikasi  'Agent1'
+Message: PBXUSER
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.LoginTTF(String UserName) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\auth_login.aspx.vb:line 324
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 15/04/2024 02:11:41:068 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='MC0B8SFUHENXNQ3REDSO8C6O1VVE30NY2OLRT1WYIMB3XHM1KU' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:11:50:754 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_TTF_LoginAplikasi  'Agent1'
+Message: PBXUSER
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.LoginTTF(String UserName) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\auth_login.aspx.vb:line 324
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 15/04/2024 02:11:50:860 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='854E8AY8PPSVA7TTWCQXQDZSLWLK6A46S42B7OM1JEQGIPSS2I' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:13:03:761 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_TTF_LoginAplikasi  'Agent1'
+Message: PBXUSER
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.LoginTTF(String UserName) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\auth_login.aspx.vb:line 325
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 15/04/2024 02:13:03:869 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='OFG4XSA80GWJ75YUT7B2FV2NLK6U5EZ3AOPOZZQRMZL85JENAY' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:13:34:617 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_TTF_LoginAplikasi  'Agent1'
+Message: PBXUSER
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.LoginTTF(String UserName) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\auth_login.aspx.vb:line 325
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 15/04/2024 02:13:34:671 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='DM0KJB46X6MWYXWKEHA0O0VVHWS1OWXMDYSEL4T2G6VO7Z5UKL' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:18:31:034 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_TTF_LoginAplikasi  'Agent1'
+Message: PBXUSER
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.LoginTTF(String UserName) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\auth_login.aspx.vb:line 325
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 15/04/2024 02:18:32:352 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='JRXXMYP04OSJVTGOD7XVFW6WZ4XRFBV4ST8DYL8XXGCOH8DSLI' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:19:08:837 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec PTM_TTF_LoginAplikasi  'Agent1'
+Message: PBXUSER
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.LoginTTF(String UserName) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\auth_login.aspx.vb:line 325
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 15/04/2024 02:19:09:017 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='TP38NK6NETYI53SBD0P8J7KWUVKSBE46U1WROZHN0667ILMON4' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:32:49:040 PM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_TTF_LoginAplikasi  'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:32:49:052 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='MJ4RM5NP7LJTK1T74CWUC3YGFJD30QT841AQ8DSGJ4MO035WBU' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:33:04:127 PM
+---------------------------Success-------------------------------------------------------
+Message: exec PTM_TTF_LoginAplikasi  'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/04/2024 02:33:04:137 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='L3YAWW5NH404AAI4MZHXRZR3M2TUW0TUEFFUJ7IBDC0OLL4CTO' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+

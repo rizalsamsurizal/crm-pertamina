@@ -97,8 +97,8 @@
                                                     </div>
 
                                                     <div class="mt-4 text-center">
-                                                        <%--<a href="auth-resetpassword-cover.html" class="text-white-50 text-decoration-underline">Forgot your password?</a>--%>
-                                                        <a href="#" class="text-white-50 text-decoration-underline">Forgot your password?</a>
+                                                        <%-- <a href="auth-resetpassword-cover.html" class="text-white-50 text-decoration-underline">Forgot your password?</a>
+                                                        <a href="#" class="text-white-50 text-decoration-underline">Forgot your password?</a>--%>
                                                     </div>
                                                 </form>
                                                 <!-- end form -->
@@ -141,5 +141,7 @@
     <script src="Apps/assets/libs/metismenujs/metismenujs.min.js"></script>
     <script src="Apps/assets/libs/simplebar/simplebar.min.js"></script>
     <script src="Apps/assets/libs/feather-icons/feather.min.js"></script>
+    <script src="Apps/js/auth_login.js"></script>
+
 </body>
 </html>

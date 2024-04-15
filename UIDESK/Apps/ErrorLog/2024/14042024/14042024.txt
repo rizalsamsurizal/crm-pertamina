@@ -1,0 +1,349 @@
+Time: 14/04/2024 10:45:00:544 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:00:565 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:00:676 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:01:184 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='K2WTFEC4LCJTG4GBTJ3LFZ3SVK4VF0DNX3JE3XVZ11EMTU8K40' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 10:45:01:197 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:15:25:671 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:15:25:705 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:15:26:065 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:15:26:118 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='0RAMFL0CXATYFFS4HQ4W3DCMM0DN4632FS17HQKMB6U5M17XCS' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 11:15:26:145 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:15:801 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:15:812 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:15:866 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:15:881 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='BPGP4PEBRNDQZARMLLOXOP357JC0EW8VIJA2GDTUN2XGAHVH1I' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 12:12:15:890 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:03:39:674 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:03:39:687 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:03:39:750 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:03:39:762 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='FQ4W55VSKM1OWCEBI2XSU5H7HW0VMWJB7B2KRRZ4OO6H6SSY6O' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:03:39:772 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:10:22:051 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:10:22:062 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:10:22:131 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:10:22:143 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='B1F0QSP12TZN01LWIBEDNIUAJOYMUHFMU3TOTUHWC1QURADJOB' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:10:22:151 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:35:49:099 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:35:49:114 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:35:49:187 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:35:49:197 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='OR4TWSIQ8ZXS3MPNADKLB35FGN70HB3FHJLKEHXYFKSFBXRC4A' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 01:35:49:205 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:06:50:610 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:06:50:622 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:06:50:860 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:06:50:908 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='8ZIJAV3J5LJ0IAQQZQR2OK1VXGLTHPYJETNQ3QT1GFANRNB3RB' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 02:06:50:926 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:25:27:668 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:25:27:684 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:25:27:768 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:25:27:783 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='LJKLFUCI7YSBQYQX500LIAVXEIVVIAQKU3J3UBMDFKX2GLLZFJ' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:25:28:296 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:28:42:937 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:28:42:978 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:28:43:053 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:28:43:195 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='PBTD7GGYPY1HV84Z00SJPT15L7EG2L14GB2VZZLM4QHO1XTHPS' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:28:43:203 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:30:44:361 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:30:44:397 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:30:44:406 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:30:44:415 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='VVTEBPGCZOVIX3IU27MJRXS50MP5V5JYSHTO7RZ3FZ1GZBMG8R' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:30:44:422 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:34:28:632 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:34:28:642 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:34:28:735 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:34:28:747 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='IWEM6G363V5MGXSEEGAFCUC8FK2L6VGIGJDM51L74NKBRISRO1' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:34:28:817 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:39:17:360 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:39:17:368 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:39:17:379 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:39:17:389 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='UJZZI6NVTKST0XEQ8OWM724SWKIULNAIWXMQQJWHN0K2PBMK2K' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:39:17:401 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:46:37:207 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at UIDESK.auth_login.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in C:\Users\Rizal\Source\Repos\crm-pertamina\UIDESK\auth_login.aspx.vb:line 86
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/04/2024 06:53:24:462 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:53:24:473 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:53:24:555 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:53:24:565 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='SZJ2C1GEZPCXMFGPZ1KKF4Y22U6NNUVC3G75HHBVORT45ZPIXQ' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/04/2024 06:53:24:573 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
