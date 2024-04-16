@@ -79,6 +79,7 @@ Public Class auth_login
         '        Response.Write(ex.Message)
         '    End Try
         'End If
+
     End Sub
     Private Sub Login_ButtonSubmit_ServerClick(sender As Object, e As EventArgs) Handles Login_ButtonSubmit.ServerClick
         Dim strRecCount As String = "Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'"
