@@ -141,6 +141,7 @@
     <script src="Apps/assets/libs/metismenujs/metismenujs.min.js"></script>
     <script src="Apps/assets/libs/simplebar/simplebar.min.js"></script>
     <script src="Apps/assets/libs/feather-icons/feather.min.js"></script>
+    <script src="Apps/js/jquery-1.9.1.min.js"></script>
     <script src="Apps/js/auth_login.js"></script>
 
 </body>

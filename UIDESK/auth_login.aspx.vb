@@ -386,7 +386,7 @@ Public Class auth_login
         '    ErrorLabel.Text = "Your username or password is incorrect, Try again"
         'End If
     End Function
-     Function RandomString(ByVal ValueLogin As String)
+    Function RandomString(ByVal ValueLogin As String)
         Dim s As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
         Dim r As New Random
         Dim sb As New StringBuilder
