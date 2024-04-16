@@ -1349,7 +1349,8 @@ function getWS_MasterCustomerSelected(custNik) {
                 $("#Reported_Name").val(json[i].Name);
                 $("#Reported_Phone").val(json[i].HP);
                 $("#Reported_Email").val(json[i].Email);
-                CKEDITOR.instances.Reported_Address.setData(json[i].Alamat)
+                $("#Reported_Address").val(json[i].Alamat);
+                //CKEDITOR.instances.Reported_Address.setData(json[i].Alamat)
                 $("#modal-searching-other").modal('hide');
                 $("#modal-SearchUser").modal('hide');
 

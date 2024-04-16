@@ -27,10 +27,15 @@
                                         <i class="uil uil-search search-icon"></i>
                                     </div>
                                 </div>
-
+                                <div class="btn-group me-2 mb-2 mb-sm-0">
+                                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa fa-building"></i>&nbsp;Tenant <i class="mdi mdi-dots-vertical ms-2"></i>
+                                    </button>
+                                    <div id="divTenantDropdownHeader" class="dropdown-menu"></div>
+                                </div>
                             </div>
                         </div>
-                         <div class="mt-2">
+                        <%--<div class="mt-2">
                             <ul class="nav nav-tabs nav-tabs-custom mb-4" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" data-bs-toggle="tab" href="#list-all" role="tab">All Customer <span class="badge rounded-pill bg-info">1980</span></a>
@@ -45,7 +50,7 @@
                                     <a class="nav-link" data-bs-toggle="tab" href="#list-complete">PCC 135 Abdul Muis <span class="badge rounded-pill bg-danger">980</span></a>
                                 </li>
                             </ul>
-                        </div>
+                        </div>--%>
                     </div>
                     <div>
                         <div class="row" id="DivCustomerSystem"></div>
@@ -57,7 +62,7 @@
     <div class="col-lg-12">
         <div class="card">
             <div class="card-body">
-               <%-- <div class="row">
+                <%-- <div class="row">
                     <div class="col-md-6">
                         <div class="mb-3">
                         </div>
@@ -105,14 +110,14 @@
                             <div class="modal-body p-4">
                                 <div>
                                     <div class="row">
-                                          <div class="col-md-12">
+                                        <div class="col-md-12">
                                             <div class="mb-3">
                                                 <label for="addcontact-name-input" class="form-label">Nama</label>
                                                 <input type="text" class="form-control" id="Name" placeholder="Nama">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">                                     
+                                    <div class="row">
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                                 <label for="addcontact-designation-input" class="form-label">Nomor Telepon</label>
@@ -125,7 +130,7 @@
                                                 <input type="text" class="form-control" id="Email" placeholder="Email">
                                             </div>
                                         </div>
-                                         <div class="col-md-4">
+                                        <div class="col-md-4">
                                             <div class="mb-3">
                                                 <label for="addcontact-name-input" class="form-label">Tenant</label>
                                                 <select id="CmbTenant" class="form-select">
@@ -156,7 +161,7 @@
                                                 <label for="addcontact-designation-input" class="form-label">Birth</label>
                                                 <input type="date" class="form-control" id="Birth" placeholder="Birth">
                                             </div>
-                                        </div>                                      
+                                        </div>
                                     </div>
                                     <div class="row" style="display: none;">
                                         <div class="col-md-4">
@@ -196,6 +201,36 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bs-example-modal-xl" tabindex="-1" role="dialog" id="modalHistory"
+        aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content" style="width:1100px;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addContactModalLabelHistory">Form History Ticket</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <table class="table align-middle table-nowrap table-check" id="TrmHistory">
+                        <thead>
+                            <tr>
+                                <th style="width: 150px; min-width: 150px;">Ticket Number</th>
+                                <th style="width: 150px; min-width: 150px;">Main Category</th>
+                                <th style="width: 150px; min-width: 150px;">Position</th>
+                                <th style="width: 50px; min-width: 100px;">Status</th>
+                                <th style="width: 150px; min-width: 100px;">SLA</th>
+                                <th style="width: 150px; min-width: 150px;">Date Create</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light w-sm" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>

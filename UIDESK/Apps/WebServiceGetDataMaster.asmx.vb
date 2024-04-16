@@ -5721,4 +5721,72 @@ Public Class WebServiceGetDataMaster
         Next
         Return sb.ToString()
     End Function
+    <WebMethod(EnableSession:=True)>
+    <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
+    Public Function LoginApplikasi(ByVal UserName As String) As String
+        Dim connstring As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
+        Dim dt As DataTable = New DataTable()
+        Dim NameSP = "Exec PTM_TTF_LoginAplikasi"
+        Dim ExecSP = "" & NameSP & " '" & UserName & "'"
+        Try
+            Using conn As SqlConnection = New SqlConnection(connstring)
+                conn.Open()
+                Dim sqlComm As SqlCommand = New SqlCommand("PTM_TTF_LoginAplikasi", conn)
+                sqlComm.Parameters.AddWithValue("@User", UserName)
+                sqlComm.CommandType = CommandType.StoredProcedure
+                Dim da As SqlDataAdapter = New SqlDataAdapter()
+                Dim ds As DataSet = New DataSet()
+                da.SelectCommand = sqlComm
+                da.Fill(ds)
+                dt = ds.Tables(0)
+                conn.Close()
+            End Using
+            LoginTTF(UserName)
+        Catch ex As Exception
+            LogError(HttpContext.Current.Session("UserName"), ex, ExecSP)
+        Finally
+            LogSuccess(HttpContext.Current.Session("UserName"), ExecSP)
+        End Try
+        Dim tableJson As String = BigConvertDataTabletoString(dt)
+        Return tableJson       
+    End Function
+    Function LoginTTF(ByVal UserName As String) As string
+        Dim strString As String = ""
+        strString = "exec PTM_TTF_LoginAplikasi  '" & UserName & "'"
+        Try
+            sqldr = Proses.ExecuteReader(strString)
+            If sqldr.HasRows Then
+                sqldr.Read()
+                Session("UserName") = sqldr("UserName").ToString
+                Session("lblUserName") = sqldr("UserName").ToString
+                Session("UnitKerja") = sqldr("UNITKERJA").ToString
+                Session("Org") = sqldr("ORGANIZATION_NAME").ToString
+                Session("NameKaryawan") = sqldr("NAME").ToString
+                Session("LoginType") = sqldr("LAYER").ToString
+                Session("lvluser") = sqldr("LevelUser").ToString
+                Session("channel_code") = sqldr("CHANNEL_CODE").ToString
+                Session("organization") = sqldr("ORGANIZATION").ToString
+                Session("orgSupervisor") = sqldr("ORGANIZATION").ToString
+                Session("lokasiPengaduan") = ""
+                Session("sessionchat") = sqldr("CHAT").ToString
+                Session("unitkerjaagent") = sqldr("IdGrup").ToString
+                Session("ROLE") = sqldr("LEVELUSER").ToString
+                Session("LEVELUSERID") = sqldr("ROLE_ID").ToString
+                Session("LoginTypeAngka") = sqldr("NumberNya").ToString
+                Session("_LoginState") = sqldr("LoginState").ToString
+                Session("NamaGrup") = sqldr("NamaGrup").ToString
+                Session("EscalationIdentity") = sqldr("EscalationIdentity").ToString
+                Session("EscalationTo") = sqldr("EscalationTo").ToString
+                Session("LevelUserID") = sqldr("LevelUserID").ToString
+                Session("EmailAddress") = sqldr("EMAIL_ADDRESS").ToString
+                Session("Ext") = sqldr("PBXUSER").ToString
+                Session("MultiChatToken") = sqldr("TokenMeta").ToString
+
+            End If
+            sqldr.Close()
+            Return "Success"
+        Catch ex As Exception
+            Return "Failed"
+        End Try    
+    End Function
 End Class

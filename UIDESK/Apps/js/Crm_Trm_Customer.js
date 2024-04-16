@@ -13,6 +13,7 @@
         }
     });
     DropdwonDataTenant();
+    divTenantDropdownHeader();
 });
 function ActionSimpan() {
     if ($("#Name").val() == "") {
@@ -207,6 +208,13 @@ function ActionUpdate() {
 function ActionDelete() {
 
 }
+function ActionTenant(value) {
+    if (value == "1") {
+        location.href = "Crm_Trm_Customer.aspx?id="
+    } else {
+        location.href = "Crm_Trm_Customer.aspx?id=" + value + ""
+    }
+}
 function CustomerSearching(ParameterID) {
     var ValUserID = $("#hd_sessionLogin").val();
     var result = "";
@@ -362,13 +370,52 @@ function DeleteKlik(TrxID) {
     $("#ContentPlaceHolder1_TrxID").val(TrxID);
     TrmSelect();
 }
+function divTenantDropdownHeader() {
+    $.ajax({
+        type: "POST",
+        url: "asmx/Crm_Trx_User_Tenant.asmx/UIDESK_TrmMasterCombo",
+        data: "{TrxID:'UideskIndonesia', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK162'}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            var json = JSON.parse(data.d);
+            var i, x, resultTabTenant = "";
+
+            resultTabTenant = '<div>'
+            for (i = 0; i < json.length; i++) {
+
+                resultTabTenant += '<a class="dropdown-item" href="#" onclick=ActionTenant(' + json[i].IdGrup + ')>' + json[i].NamaGrup + ' <span class="badge rounded-pill bg-primary">' + json[i].Jumlah + '</span></a></div>'
+
+            }
+            $('#divTenantDropdownHeader').append(resultTabTenant)
+        },
+        error: function (xmlHttpRequest, textStatus, errorThrown) {
+            console.log(xmlHttpRequest.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
+        }
+    })
+}
+function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
 function LoadingCustomer() {
+    if (getParameterByName("id") == "" || getParameterByName("id") == null) {
+        var KondisiData = "0";
+    } else {
+        var KondisiData = getParameterByName("id");
+    }
     var ValUserID = $("#hd_sessionLogin").val();
     var result = "";
     $.ajax({
         type: "POST",
         url: "WebServiceGetDataMaster.asmx/UIDESK_TrmMasterCombo",
-        data: "{TrxID:'UideskIndonesia', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK113'}",
+        data: "{TrxID:'" + KondisiData +"', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK113'}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {
@@ -421,10 +468,11 @@ function LoadingCustomer() {
                     '<ul class="dropdown-menu dropdown-menu-end">' +
                     '<li><a class="dropdown-item" href="#" onclick=UpdateKlik(' + json[i].CustomerID + ')>Edit</a></li>' +
                     '<li><a class="dropdown-item" href="#" onclick=DeleteKlik(' + json[i].CustomerID + ')>Delete</a></li>' +
+                    '<li><a class="dropdown-item" href="#" onclick=PreviewKlik(' + json[i].CustomerID + ')>Preview</a></li>' +
                     '<li>' +
                     '<hr class="dropdown-divider">' +
                     '</li>' +
-                    '<li><a class="dropdown-item" href="#" onclick=PreviewKlik(' + json[i].CustomerID + ')>Preview</a></li>' +
+                    '<li><a class="dropdown-item" href="#" onclick=HistoryTicket(' + json[i].CustomerID + ')>History Ticket</a></li>' +
                     '</ul>' +
                     '</div>' +
                     '</div>' +
@@ -590,4 +638,7 @@ function UpdateKlik(TrxID) {
     $("#Delete").hide();
     $("#ContentPlaceHolder1_TrxID").val(TrxID);
     TrmSelect();
+}
+function HistoryTicket(value) {
+    $("#modalHistory").modal('show');  
 }

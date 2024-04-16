@@ -22,18 +22,18 @@
                             </div>
                         </div>
                         <div class="col-md-9">
-                            <div class="d-flex flex-wrap align-items-start justify-content-md-end gap-2 mb-3">
-                                <div class="btn-group me-2 mb-2 mb-sm-0">
-                                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa fa-building"></i>&nbsp;Tenant <i class="mdi mdi-dots-vertical ms-2"></i>
-                                    </button>
-                                    <div id="divCaseOwnerDropdownHeader" class="dropdown-menu"></div>
-                                </div>
+                            <div class="d-flex flex-wrap align-items-start justify-content-md-end gap-2 mb-3">                               
                                 <div class="search-box ">
                                     <div class="position-relative">
                                         <input type="text" class="form-control bg-light border-light rounded" id="TxtSearchingUserName" placeholder="Search...">
                                         <i class="uil uil-search search-icon"></i>
                                     </div>
+                                </div>
+                                 <div class="btn-group me-2 mb-2 mb-sm-0">
+                                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa fa-building"></i>&nbsp;Tenant <i class="mdi mdi-dots-vertical ms-2"></i>
+                                    </button>
+                                    <div id="divCaseOwnerDropdownHeader" class="dropdown-menu"></div>
                                 </div>
                             </div>
                         </div>
